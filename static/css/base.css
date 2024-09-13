@@ -1,0 +1,212 @@
+/* General styles */
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-image: url('/media/hero-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: black;
+    margin: 0;
+    line-height: normal;
+}
+
+/* :root */
+
+:root {
+    /* fonts */
+    --font-outfit: Outfit;
+    --font-bebas-neue: 'Bebas Neue';
+    /* font sizes */
+    --font-size-5xl: 24px;
+    /* Colors */
+    --color-black: #000;
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+/* Hero */
+
+.hero-text-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.75);
+    background-color: rgba(217, 217, 217, 0.15);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 404px;
+    height: 348px;
+}
+
+.find-your-feet {
+    position: absolute;
+    top: 161px;
+    left: 0px;
+    display: inline-block;
+    width: 302px;
+    height: 36px;
+}
+
+.explore-our-sneaker {
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    font-size: 64px;
+    display: inline-block;
+    width: 271px;
+    height: 161px;
+}
+
+.hero-text1 {
+    width: 302px;
+    position: relative;
+    height: 197px;
+    text-align: left;
+    font-size: 32px;
+    font-family: var(--font-bebas-neue);
+}
+
+.shop-now-button-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.75);
+    background-color: #ffbebe;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 165px;
+    height: 62px;
+}
+
+.shop-now {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 62px;
+}
+
+.shop-now-button {
+    width: 165px;
+    position: relative;
+    height: 62px;
+}
+
+.new-in-button-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.75);
+    background-color: #fff;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 165px;
+    height: 62px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 27px;
+    left: 23px;
+    width: 358px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 28px;
+}
+
+.herotext {
+    position: absolute;
+    top: 380px;
+    left: 25px;
+    width: 404px;
+    height: 348px;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+    height: 1024px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-outfit);
+}
+
+/* Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
