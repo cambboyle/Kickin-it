@@ -2,34 +2,70 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
 {% endblock %}
 
 {% block content %}
-<div class="hero">
-    <div class="herotext">
-        <div class="hero-text-container">
-        </div>
-        <div class="hero-text">
-            <div class="hero-text1">
-                <div class="find-your-feet">find YOUR feet and shop now</div>
-                <div class="explore-our-sneaker">Explore our sneaker HUB</div>
-            </div>
-            <div class="shop-now-button">
-                <div class="shop-now-button-child">
+<section>
+    <div class="hero-img" style="height: 100dvh; background: url(media/hero-image.jpg) center / cover no-repeat;">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                    <div style="max-width: 350px;position: absolute;">
+                        <h1 class="text-uppercase fw-bold" style="color: rgb(255,255,255);font-size: 64px;font-family: 'Bebas Neue', sans-serif;">
+                            EXPLORE OUR SNEAKER HUB
+                        </h1>
+                        <p class="my-3" style="color: rgb(255,255,255);font-family: 'Bebas Neue', sans-serif;font-size: 32px;">
+                            FIND YOUR FEET AND SHOP NOW
+                        </p>
+                        <a id="shop-now-button" class="btn btn-lg me-2 global-buttons" role="button" href="#">
+                            SHOP NOW
+                        </a>
+                        <a id="new-in-button" class="btn btn-lg me-2 global-buttons" role="button" href="#">
+                            NEW IN
+                        </a>
+                    </div>
                 </div>
-                <div class="shop-now">SHOP NOW</div>
-            </div>
-            <div class="shop-now-button">
-                <div class="new-in-button-child">
-                </div>
-                <div class="shop-now">NEW IN</div>
             </div>
         </div>
     </div>
-</div>
+</section>
+<section id="top-sellers"></section>
+    <div class="col-sm-8 offset-sm-2 pt-5">
+        <h3>Top sellers this month</h3>
+    </div>
+    <hr class="my-1" />
+    <div class="col-sm-8 offset-sm-2 mb-4">
+        <div class="row py-3">
+            <div class="col-sm-12 col-md-6 col-xl-4 p-sm-3 card-xs-padding">
+                <div class="card rounded-0">
+                    <img class="img-fluid card-img-top w-100 d-block" alt="" src="" />
+                    <div class="card-body">
+                        <h4 class="card-title text-dark">sneaker.name</h4>
+                        <a id="sneaker-price-button" class="btn btn-lg me-2 global-buttons" role="button" href="#">sneaker.price</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-8 offset-sm-2 mb-4">
+        <div class="container py-4 py-xl-5">
+            <div class="row gy-4 gy-md-0">
+                <div class="col-md-6 text-center">
+                    <div class="text-center p-xl-5 m-xl-5">
+                        <img class="img-fluid h-100" alt="" src="" width="300" height="300" />
+                    </div>
+                </div>
+                <div class="col-md-6 d-md-flex align-items-md-center">
+                    <div style="max-width: 350px;">
+                        <h3 class="text-uppercase fw-bold text-center email-text">get the latest updates and drops with our newsletter</h3>
+                        <div class="input-group text-center">
+                            <input class="form-control" type="email" placeholder="Enter your email here!" />
+                            <button id="Email-Button" class="btn btn-sm fs-6 me-2" type="submit">GET ACCESS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}

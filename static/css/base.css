@@ -6,13 +6,23 @@ html {
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-image: url('/media/hero-image.jpg') no-repeat center center fixed;
-    background-size: cover;
     height: calc(100vh - 164px);
-    color: black;
+    color: white;
     margin: 0;
     line-height: normal;
+    background-color: #22262a ;
 }
+
+.img-crop {
+    width: 400px;
+    height: 400px;
+}
+
+.bg-black {
+    background-color: black !important;
+}
+  
+  
 
 /* :root */
 
@@ -22,11 +32,13 @@ body {
     --font-bebas-neue: 'Bebas Neue';
     /* font sizes */
     --font-size-5xl: 24px;
+    --font-size-xl: 20px;
     /* Colors */
     --color-black: #000;
+    --color-white: #fff;
 }
 
-/* from Bulma */
+/* from Bulma (CI boutique ado) */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -43,160 +55,89 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+/* Bootstrap Overrides */
+
+/* Buttons */
+
+.global-buttons {
+    border-radius: 0px;
+    box-shadow: 4px 4px rgba(43,48,58,0.75);
+    border-color: rgba(0,0,0,0.75);
+    border-right-style: solid;
+    transition: all .5s ease;
 }
 
-.btn-black {
-    background: black;
-    color: white;
+#shop-now-button:hover {
+    color: #ffffff;
+    background-color: #2B303A;
+    border-color: rgba(255,255,255,0.75);
 }
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
-
-.text-black {
-    color: #000 !important;
-}
-
-.border-black {
-    border: 1px solid black !important;
-}
-
-/* Hero */
-
-.hero-text-container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.75);
-    background-color: rgba(217, 217, 217, 0.15);
-    border: 1px solid var(--color-black);
-    box-sizing: border-box;
-    width: 404px;
-    height: 348px;
-}
-
-.find-your-feet {
-    position: absolute;
-    top: 161px;
-    left: 0px;
-    display: inline-block;
-    width: 302px;
-    height: 36px;
-}
-
-.explore-our-sneaker {
-    position: absolute;
-    top: 0px;
-    left: 13px;
-    font-size: 64px;
-    display: inline-block;
-    width: 271px;
-    height: 161px;
-}
-
-.hero-text1 {
-    width: 302px;
-    position: relative;
-    height: 197px;
-    text-align: left;
-    font-size: 32px;
-    font-family: var(--font-bebas-neue);
-}
-
-.shop-now-button-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.75);
+  
+ #shop-now-button {
     background-color: #ffbebe;
-    border: 1px solid var(--color-black);
-    box-sizing: border-box;
-    width: 165px;
-    height: 62px;
+}
+  
+#new-in-button:hover {
+    background-color: #2b303a;
+    color: white;
+    border-color: rgba(255,255,255,0.75);
+}
+  
+#new-in-button {
+    background-color: white;
 }
 
-.shop-now {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 165px;
-    height: 62px;
+#Email-Button {
+    background-color: #ffbebe;
 }
 
-.shop-now-button {
-    width: 165px;
-    position: relative;
-    height: 62px;
+#Email-Button:hover {
+    background-color: #2b303a;
+}
+  
+/* Dropdowns */
+
+.dropdown-styles {
+    background: rgb(255,190,190);
+    border-style: solid;
+    font-family: Outfit, sans-serif;
+    border-radius: 0;
+    box-shadow: 4px 4px rgba(43, 48, 58, 0.75);
+    border-color: rgba(0,0,0,0.75);
+    border-right-color: rgba(0,0,0,0.75);
 }
 
-.new-in-button-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.75);
-    background-color: #fff;
-    border: 1px solid var(--color-black);
-    box-sizing: border-box;
-    width: 165px;
-    height: 62px;
+.dropdown-styles > a:hover {
+    background-image: none;
+    background-color: #36454f;
 }
 
-.hero-text {
-    position: absolute;
-    top: 27px;
-    left: 23px;
-    width: 358px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-    gap: 28px;
+.dropdown > .dropdown-toggle:active {
+      pointer-events: none;
+  }
+
+.dropdown-width {
+    width: 650px;
 }
 
-.herotext {
-    position: absolute;
-    top: 380px;
-    left: 25px;
-    width: 404px;
-    height: 348px;
-}
 
-.hero {
-    width: 100%;
-    position: relative;
-    height: 1024px;
-    text-align: center;
-    font-size: var(--font-size-5xl);
-    color: var(--color-black);
-    font-family: var(--font-outfit);
+/* Cards */
+
+.card-style {
+    width: 18rem;
 }
+  
 
 /* Media Queries */
 
-/* Slightly larger container on xl screens */
+/* XL Devices */
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
 }
 
-/* fixed top navbar only on medium and up */
+/* L Devices */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -208,5 +149,42 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+
+    .nav-dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+}
+
+/* M Devices */
+@media (max-width: 991px) {
+    .dropdown-menu {
+        max-height: 200px;
+        overflow-y: scroll;
+        display: none;
+    }
+    .dropdown-menu.show {
+        display: block;
+    }
+}
+
+/* SN Devices */
+@media (max-width: 768px) {
+    .dropdown-menu {
+        max-height: 200px;
+        overflow-y: scroll;
+    }
+}
+
+/* XS Devices */
+@media (max-width: 600px) {
+    .dropdown-menu {
+        max-height: 200px;
+        overflow-y: scroll;
     }
 }
