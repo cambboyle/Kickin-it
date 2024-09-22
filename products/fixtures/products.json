@@ -1,0 +1,1702 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ1-High-BlackRed",
+      "name": "Air Jordan 1 Retro High OG 'Bred'",
+      "description": "The iconic Air Jordan 1 High in the classic 'Bred' colorway. Released in 2016, it remains one of the most sought-after shoes.",
+      "colourway": "Black/Red",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 600.00,
+      "release_year": 2016,
+      "category": 6,
+      "image_url": "https://example.com/images/aj1-bred.jpg",
+      "image": "aj1-bred.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "YZ350-V2-Beluga",
+      "name": "Yeezy Boost 350 V2 'Beluga'",
+      "description": "The Yeezy Boost 350 V2 ‘Beluga’ showcases a signature grey-orange colorway and Primeknit construction.",
+      "colourway": "Grey/Orange",
+      "gender": "Men",
+      "brand": "Adidas",
+      "price": 350.00,
+      "release_year": 2017,
+      "category": 5,
+      "image_url": "https://example.com/images/yeezy-beluga.jpg",
+      "image": "yeezy-beluga.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "AF1-Low-White",
+      "name": "Nike Air Force 1 Low 'White'",
+      "description": "A timeless classic, the all-white Nike Air Force 1 Low remains a staple in streetwear and casual footwear.",
+      "colourway": "White/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 90.00,
+      "release_year": 1982,
+      "category": 4,
+      "image_url": "https://example.com/images/af1-low-white.jpg",
+      "image": "af1-low-white.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "NB-990v5-Grey",
+      "name": "New Balance 990v5 'Grey'",
+      "description": "A legendary running shoe, the New Balance 990v5 in grey offers premium comfort and a classic aesthetic.",
+      "colourway": "Grey",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 175.00,
+      "release_year": 2019,
+      "category": 7,
+      "image_url": "https://example.com/images/nb-990v5-grey.jpg",
+      "image": "nb-990v5-grey.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "Converse-70-High-Black",
+      "name": "Converse Chuck Taylor All Star 70 High 'Black'",
+      "description": "A retro edition of the classic Chuck Taylor All Star, updated with vintage-inspired details and premium construction.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Converse",
+      "price": 85.00,
+      "release_year": 2020,
+      "category": 6,
+      "image_url": "https://example.com/images/converse-70-black.jpg",
+      "image": "converse-70-black.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "YZ700-WaveRunner",
+      "name": "Yeezy Boost 700 'Wave Runner'",
+      "description": "The Yeezy Boost 700 'Wave Runner' combines retro-inspired styling with cutting-edge Boost cushioning.",
+      "colourway": "Multi/Grey/Black",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 300.00,
+      "release_year": 2017,
+      "category": 5,
+      "image_url": "https://example.com/images/yeezy-700-wave.jpg",
+      "image": "yeezy-700-wave.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ4-WhiteCement",
+      "name": "Air Jordan 4 Retro OG 'White Cement'",
+      "description": "A classic, the Air Jordan 4 'White Cement' originally released in 1989 and returned in 2016 with OG branding.",
+      "colourway": "White/Black/Cement",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 450.00,
+      "release_year": 2016,
+      "category": 6,
+      "image_url": "https://example.com/images/aj4-whitecement.jpg",
+      "image": "aj4-whitecement.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "NB-327-Castlerock",
+      "name": "New Balance 327 'Castlerock'",
+      "description": "The New Balance 327 offers a retro design inspired by 70s running shoes with modern comfort and minimalism.",
+      "colourway": "Grey/White",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 100.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/nb-327-castlerock.jpg",
+      "image": "nb-327-castlerock.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "Vans-OldSkool-BlackWhite",
+      "name": "Vans Old Skool 'Black/White'",
+      "description": "A skateboarding staple, the Vans Old Skool 'Black/White' has transcended generations with its timeless design.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Vans",
+      "price": 60.00,
+      "release_year": 1977,
+      "category": 6,
+      "image_url": "https://example.com/images/vans-oldskool.jpg",
+      "image": "vans-oldskool.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "SB-Dunk-Low-Panda",
+      "name": "Nike SB Dunk Low 'Panda'",
+      "description": "The Nike SB Dunk Low 'Panda' is a monochromatic iteration of the classic skate silhouette, popular among collectors.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 150.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/sb-dunk-panda.jpg",
+      "image": "sb-dunk-panda.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ3-BlackCement",
+      "name": "Air Jordan 3 Retro OG 'Black Cement'",
+      "description": "The Air Jordan 3 'Black Cement' is one of the most iconic sneakers in history, featuring premium leather and elephant print details.",
+      "colourway": "Black/Cement Grey",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 450.00,
+      "release_year": 2018,
+      "category": 6,
+      "image_url": "https://example.com/images/aj3-blackcement.jpg",
+      "image": "aj3-blackcement.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "YZ500-Blush",
+      "name": "Yeezy 500 'Blush'",
+      "description": "The Yeezy 500 'Blush' brings back the early 2000s bulky aesthetic with a suede and mesh upper.",
+      "colourway": "Blush",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 250.00,
+      "release_year": 2018,
+      "category": 5,
+      "image_url": "https://example.com/images/yeezy-500-blush.jpg",
+      "image": "yeezy-500-blush.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "Blazer-Mid-77-Vintage-WhiteBlack",
+      "name": "Nike Blazer Mid '77 Vintage 'White/Black'",
+      "description": "A retro basketball icon, the Nike Blazer Mid '77 Vintage features throwback styling and modern comfort.",
+      "colourway": "White/Black",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 100.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/blazer-mid-vintage.jpg",
+      "image": "blazer-mid-vintage.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "AF1-Low-TripleBlack",
+      "name": "Nike Air Force 1 Low 'Triple Black'",
+      "description": "A streetwear staple, the Nike Air Force 1 Low 'Triple Black' brings a sleek all-black look to the classic silhouette.",
+      "colourway": "Black/Black",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 90.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/af1-low-tripleblack.jpg",
+      "image": "af1-low-tripleblack.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "Puma-Suede-Classic-BlackWhite",
+      "name": "Puma Suede Classic 'Black/White'",
+      "description": "A timeless classic, the Puma Suede Classic in Black/White remains a favorite across generations and cultures.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Puma",
+      "price": 65.00,
+      "release_year": 2019,
+      "category": 6,
+      "image_url": "https://example.com/images/puma-suede-classic.jpg",
+      "image": "puma-suede-classic.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "YZ-Boost-380-Alien",
+      "name": "Yeezy Boost 380 'Alien'",
+      "description": "The Yeezy Boost 380 'Alien' offers a futuristic design with a reflective Primeknit upper and signature Boost cushioning.",
+      "colourway": "Alien",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 230.00,
+      "release_year": 2020,
+      "category": 5,
+      "image_url": "https://example.com/images/yeezy-380-alien.jpg",
+      "image": "yeezy-380-alien.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ5-Grape",
+      "name": "Air Jordan 5 Retro 'Grape'",
+      "description": "The Air Jordan 5 'Grape' is a vibrant take on the iconic silhouette, featuring a suede upper and translucent outsole.",
+      "colourway": "White/New Emerald/Grape",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 400.00,
+      "release_year": 2020,
+      "category": 6,
+      "image_url": "https://example.com/images/aj5-grape.jpg",
+      "image": "aj5-grape.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "NB-574-Grey",
+      "name": "New Balance 574 'Grey'",
+      "description": "The New Balance 574 offers a versatile style, balancing casual comfort and athletic performance.",
+      "colourway": "Grey",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 80.00,
+      "release_year": 2018,
+      "category": 4,
+      "image_url": "https://example.com/images/nb-574-grey.jpg",
+      "image": "nb-574-grey.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "Vans-SK8Hi-BlackWhite",
+      "name": "Vans Sk8-Hi 'Black/White'",
+      "description": "The Vans Sk8-Hi 'Black/White' is a high-top sneaker that delivers timeless skate style and durable canvas construction.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Vans",
+      "price": 65.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/vans-sk8hi.jpg",
+      "image": "vans-sk8hi.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ6-Infrared",
+      "name": "Air Jordan 6 Retro 'Infrared'",
+      "description": "The Air Jordan 6 'Infrared' is a classic sneaker that Michael Jordan wore during his first championship season in 1991.",
+      "colourway": "Black/Infrared",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 400.00,
+      "release_year": 2019,
+      "category": 6,
+      "image_url": "https://example.com/images/aj6-infrared.jpg",
+      "image": "aj6-infrared.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ12-FluGame",
+      "name": "Air Jordan 12 'Flu Game'",
+      "description": "The Air Jordan 12 'Flu Game' is one of the most iconic Jordans, referencing MJ's legendary 1997 Finals performance.",
+      "colourway": "Black/Red",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 450.00,
+      "release_year": 2016,
+      "category": 5,
+      "image_url": "https://example.com/images/aj12-flugame.jpg",
+      "image": "aj12-flugame.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "Converse-OneStar-Black",
+      "name": "Converse One Star 'Black'",
+      "description": "The Converse One Star in black features premium suede and a retro low-profile design for a timeless look.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Converse",
+      "price": 75.00,
+      "release_year": 2018,
+      "category": 4,
+      "image_url": "https://example.com/images/converse-onestar.jpg",
+      "image": "converse-onestar.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "NB-1500-MadeInUK-GreyNavy",
+      "name": "New Balance 1500 Made in UK 'Grey/Navy'",
+      "description": "The New Balance 1500 combines premium craftsmanship with heritage running aesthetics in the 'Made in UK' edition.",
+      "colourway": "Grey/Navy",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 220.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/nb-1500-uk.jpg",
+      "image": "nb-1500-uk.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "SB-Dunk-Low-StreetHawker",
+      "name": "Nike SB Dunk Low 'Street Hawker'",
+      "description": "The Nike SB Dunk Low 'Street Hawker' draws inspiration from Chinese street food culture with unique mismatched detailing.",
+      "colourway": "Multi-Color",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 200.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/sb-dunk-streethawker.jpg",
+      "image": "sb-dunk-streethawker.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "Puma-RS-X-Cubic-WhiteBlack",
+      "name": "Puma RS-X 'Cubic' White/Black",
+      "description": "The Puma RS-X 'Cubic' features a chunky silhouette with modern design elements and cushioning for all-day comfort.",
+      "colourway": "White/Black",
+      "gender": "Unisex",
+      "brand": "Puma",
+      "price": 120.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/puma-rsx-cubic.jpg",
+      "image": "puma-rsx-cubic.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ11-Concord",
+      "name": "Air Jordan 11 'Concord'",
+      "description": "The Air Jordan 11 'Concord' is one of the most iconic basketball sneakers, featuring patent leather and a sleek silhouette.",
+      "colourway": "White/Black",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 350.00,
+      "release_year": 2018,
+      "category": 5,
+      "image_url": "https://example.com/images/aj11-concord.jpg",
+      "image": "aj11-concord.jpg"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "YZ500-Salt",
+      "name": "Yeezy 500 'Salt'",
+      "description": "The Yeezy 500 'Salt' offers a neutral-toned colorway on the bulky, retro-inspired silhouette with suede and mesh construction.",
+      "colourway": "Salt",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 200.00,
+      "release_year": 2019,
+      "category": 6,
+      "image_url": "https://example.com/images/yeezy-500-salt.jpg",
+      "image": "yeezy-500-salt.jpg"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Dunk-Low-Syracuse",
+      "name": "Nike Dunk Low 'Syracuse'",
+      "description": "The Nike Dunk Low 'Syracuse' showcases a classic orange and white colorway, originally part of the 'Be True to Your School' series.",
+      "colourway": "White/Orange",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 180.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/nike-dunk-syracuse.jpg",
+      "image": "nike-dunk-syracuse.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "NB-997H-Navy",
+      "name": "New Balance 997H 'Navy'",
+      "description": "A modern take on a classic silhouette, the New Balance 997H in navy features lightweight construction and retro-inspired design.",
+      "colourway": "Navy/White",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 90.00,
+      "release_year": 2019,
+      "category": 4,
+      "image_url": "https://example.com/images/nb-997h-navy.jpg",
+      "image": "nb-997h-navy.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ6-Carmine",
+      "name": "Air Jordan 6 Retro 'Carmine'",
+      "description": "The Air Jordan 6 'Carmine' is an iconic colorway worn by Michael Jordan during his 1991 championship run.",
+      "colourway": "White/Red/Black",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 220.00,
+      "release_year": 2021,
+      "category": 6,
+      "image_url": "https://example.com/images/aj6-carmine.jpg",
+      "image": "aj6-carmine.jpg"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Air-Max-97-SilverBullet",
+      "name": "Nike Air Max 97 'Silver Bullet'",
+      "description": "The Nike Air Max 97 'Silver Bullet' features a reflective silver upper inspired by high-speed trains in Japan.",
+      "colourway": "Silver/Red/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 180.00,
+      "release_year": 2017,
+      "category": 6,
+      "image_url": "https://example.com/images/air-max-97-silver-bullet.jpg",
+      "image": "air-max-97-silver-bullet.jpg"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "Reebok-ClubC-85-WhiteGreen",
+      "name": "Reebok Club C 85 'White/Green'",
+      "description": "The Reebok Club C 85 'White/Green' combines vintage tennis styling with modern comfort and versatility.",
+      "colourway": "White/Green",
+      "gender": "Unisex",
+      "brand": "Reebok",
+      "price": 70.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/reebok-clubc-85.jpg",
+      "image": "reebok-clubc-85.jpg"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Space-Hippie-01",
+      "name": "Nike Space Hippie 01",
+      "description": "The Nike Space Hippie 01 is part of the brand’s sustainability initiative, made with recycled materials.",
+      "colourway": "Grey/Volt",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 130.00,
+      "release_year": 2020,
+      "category": 7,
+      "image_url": "https://example.com/images/nike-space-hippie-01.jpg",
+      "image": "nike-space-hippie-01.jpg"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "sku": "Puma-Ralph-Sampson-White",
+      "name": "Puma Ralph Sampson Lo 'White'",
+      "description": "The Puma Ralph Sampson Lo 'White' is a vintage-inspired basketball sneaker named after Hall of Famer Ralph Sampson.",
+      "colourway": "White/Blue",
+      "gender": "Unisex",
+      "brand": "Puma",
+      "price": 80.00,
+      "release_year": 2019,
+      "category": 4,
+      "image_url": "https://example.com/images/puma-ralph-sampson.jpg",
+      "image": "puma-ralph-sampson.jpg"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "sku": "YZ350-V2-Cinder",
+      "name": "Yeezy Boost 350 V2 'Cinder'",
+      "description": "The Yeezy Boost 350 V2 'Cinder' offers a dark-toned, minimalist look on the popular silhouette, featuring Boost cushioning.",
+      "colourway": "Cinder",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 240.00,
+      "release_year": 2020,
+      "category": 5,
+      "image_url": "https://example.com/images/yeezy-cinder.jpg",
+      "image": "yeezy-cinder.jpg"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Sacai-Blazer-Low-MagmaOrange",
+      "name": "Nike x Sacai Blazer Low 'Magma Orange'",
+      "description": "The Nike x Sacai Blazer Low in 'Magma Orange' features a unique deconstructed design with double overlays and bright colorway.",
+      "colourway": "Magma Orange/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 140.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/nike-sacai-blazer.jpg",
+      "image": "nike-sacai-blazer.jpg"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ1-Mid-Bred",
+      "name": "Air Jordan 1 Mid 'Bred'",
+      "description": "A mid-top version of the iconic 'Bred' colorway, the Air Jordan 1 Mid features black and red leather and a Jumpman logo.",
+      "colourway": "Black/Red/White",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 125.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/aj1-mid-bred.jpg",
+      "image": "aj1-mid-bred.jpg"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "sku": "NB-574-Navy",
+      "name": "New Balance 574 'Navy'",
+      "description": "The New Balance 574 in navy offers classic retro running design with reliable cushioning and style.",
+      "colourway": "Navy/White",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 80.00,
+      "release_year": 2019,
+      "category": 4,
+      "image_url": "https://example.com/images/nb-574-navy.jpg",
+      "image": "nb-574-navy.jpg"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Tailwind-79-Black",
+      "name": "Nike Air Tailwind 79 'Black'",
+      "description": "A retro runner from the late '70s, the Nike Tailwind 79 offers vintage appeal with modern comfort.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 90.00,
+      "release_year": 2020,
+      "category": 7,
+      "image_url": "https://example.com/images/nike-tailwind-79.jpg",
+      "image": "nike-tailwind-79.jpg"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "sku": "Reebok-Instapump-Fury-BlackYellow",
+      "name": "Reebok Instapump Fury 'Black/Yellow'",
+      "description": "The Reebok Instapump Fury features a futuristic design with its laceless upper and Pump technology for a custom fit.",
+      "colourway": "Black/Yellow",
+      "gender": "Unisex",
+      "brand": "Reebok",
+      "price": 160.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/reebok-instapump-fury.jpg",
+      "image": "reebok-instapump-fury.jpg"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Blazer-Low-White",
+      "name": "Nike Blazer Low 'White'",
+      "description": "The Nike Blazer Low 'White' features a clean all-white leather upper with classic branding for a minimalist look.",
+      "colourway": "White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 85.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/nike-blazer-low-white.jpg",
+      "image": "nike-blazer-low-white.jpg"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-SB-Dunk-Low-Chicago",
+      "name": "Nike SB Dunk Low 'Chicago'",
+      "description": "The Nike SB Dunk Low 'Chicago' pays homage to the iconic Air Jordan 1 'Chicago' with a red, white, and black colorway.",
+      "colourway": "Red/White/Black",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 250.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/nike-sb-chicago.jpg",
+      "image": "nike-sb-chicago.jpg"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas-Forum-84-High-WhiteBlue",
+      "name": "Adidas Forum 84 High 'White/Blue'",
+      "description": "The Adidas Forum 84 High is a retro basketball sneaker featuring a leather upper with vintage-style branding.",
+      "colourway": "White/Blue",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 110.00,
+      "release_year": 2020,
+      "category": 6,
+      "image_url": "https://example.com/images/adidas-forum-84-high.jpg",
+      "image": "adidas-forum-84-high.jpg"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "sku": "AJ4-Fire-Red",
+      "name": "Air Jordan 4 Retro 'Fire Red'",
+      "description": "The Air Jordan 4 'Fire Red' is a classic colorway featuring white leather, black accents, and red highlights.",
+      "colourway": "White/Black/Red",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 220.00,
+      "release_year": 2020,
+      "category": 5,
+      "image_url": "https://example.com/images/aj4-fire-red.jpg",
+      "image": "aj4-fire-red.jpg"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "sku": "Vans-OldSkool-BlackWhite",
+      "name": "Vans Old Skool 'Black/White'",
+      "description": "The Vans Old Skool 'Black/White' is a low-top skate shoe featuring durable canvas and the iconic side stripe.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Vans",
+      "price": 60.00,
+      "release_year": 2020,
+      "category": 6,
+      "image_url": "https://example.com/images/vans-oldskool.jpg",
+      "image": "vans-oldskool.jpg"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas-NMD-R1-CoreBlack",
+      "name": "Adidas NMD R1 'Core Black'",
+      "description": "The Adidas NMD R1 'Core Black' features a sleek black Primeknit upper and responsive Boost cushioning.",
+      "colourway": "Core Black",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 140.00,
+      "release_year": 2019,
+      "category": 4,
+      "image_url": "https://example.com/images/adidas-nmd-r1.jpg",
+      "image": "adidas-nmd-r1.jpg"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "sku": "NB-992-Grey",
+      "name": "New Balance 992 'Grey'",
+      "description": "The New Balance 992 'Grey' offers premium comfort with its ABZORB cushioning and retro running design.",
+      "colourway": "Grey",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 175.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/nb-992-grey.jpg",
+      "image": "nb-992-grey.jpg"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas-Yung-1-CloudWhite",
+      "name": "Adidas Yung-1 'Cloud White'",
+      "description": "The Adidas Yung-1 features a chunky, retro silhouette with a blend of mesh and suede for a modern twist on a classic.",
+      "colourway": "Cloud White",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 120.00,
+      "release_year": 2019,
+      "category": 4,
+      "image_url": "https://example.com/images/adidas-yung1-cloudwhite.jpg",
+      "image": "adidas-yung1-cloudwhite.jpg"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-SB-Dunk-Low-TravisScott",
+      "name": "Nike SB Dunk Low x Travis Scott",
+      "description": "The Nike SB Dunk Low x Travis Scott features a unique paisley and plaid print with earthy tones and rope laces.",
+      "colourway": "Brown/Black",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 1300.00,
+      "release_year": 2020,
+      "category": 5,
+      "image_url": "https://example.com/images/nike-sb-travis-scott.jpg",
+      "image": "nike-sb-travis-scott.jpg"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "sku": "Converse-Chuck-Taylor-White",
+      "name": "Converse Chuck Taylor All Star 'White'",
+      "description": "The Converse Chuck Taylor All Star in white is a timeless classic, known for its versatile and casual design.",
+      "colourway": "White",
+      "gender": "Unisex",
+      "brand": "Converse",
+      "price": 55.00,
+      "release_year": 2020,
+      "category": 6,
+      "image_url": "https://example.com/images/converse-chuck-taylor.jpg",
+      "image": "converse-chuck-taylor.jpg"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Air-Max-90-Bacon",
+      "name": "Nike Air Max 90 'Bacon'",
+      "description": "The Nike Air Max 90 'Bacon' was inspired by a breakfast favorite, featuring red, pink, and brown hues reminiscent of bacon.",
+      "colourway": "Red/Pink/Brown",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 180.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/air-max-90-bacon.jpg",
+      "image": "air-max-90-bacon.jpg"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas-Samba-WhiteBlack",
+      "name": "Adidas Samba 'White/Black'",
+      "description": "The Adidas Samba is a classic soccer-inspired sneaker with a white leather upper and contrasting black stripes.",
+      "colourway": "White/Black",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 70.00,
+      "release_year": 2019,
+      "category": 6,
+      "image_url": "https://example.com/images/adidas-samba.jpg",
+      "image": "adidas-samba.jpg"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "sku": "Puma-RSX-WhiteNavy",
+      "name": "Puma RS-X 'White/Navy'",
+      "description": "The Puma RS-X 'White/Navy' offers bold, chunky design with a combination of mesh and leather for a modern aesthetic.",
+      "colourway": "White/Navy",
+      "gender": "Unisex",
+      "brand": "Puma",
+      "price": 110.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/puma-rsx.jpg",
+      "image": "puma-rsx.jpg"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "sku": "NB-550-WhiteRed",
+      "name": "New Balance 550 'White/Red'",
+      "description": "The New Balance 550 'White/Red' is a retro-inspired basketball shoe with clean lines and bold accents.",
+      "colourway": "White/Red",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 110.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/nb-550-white-red.jpg",
+      "image": "nb-550-white-red.jpg"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Air-Max-1-Anniversary",
+      "name": "Nike Air Max 1 'Anniversary'",
+      "description": "The Nike Air Max 1 'Anniversary' celebrates the legacy of the first sneaker to feature visible Air cushioning.",
+      "colourway": "White/Red",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 140.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/air-max-1-anniversary.jpg",
+      "image": "air-max-1-anniversary.jpg"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+      "sku": "Reebok-Question-Mid-RedToe",
+      "name": "Reebok Question Mid 'Red Toe'",
+      "description": "The Reebok Question Mid 'Red Toe' is a signature sneaker of Allen Iverson, featuring a leather upper with a red suede toe box.",
+      "colourway": "White/Red",
+      "gender": "Men",
+      "brand": "Reebok",
+      "price": 150.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/reebok-question-red-toe.jpg",
+      "image": "reebok-question-red-toe.jpg"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Air-Force-1-White",
+      "name": "Nike Air Force 1 'White'",
+      "description": "The Nike Air Force 1 'White' is a timeless classic, featuring a clean white leather upper and Air cushioning.",
+      "colourway": "White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 90.00,
+      "release_year": 2021,
+      "category": 6,
+      "image_url": "https://example.com/images/nike-af1-white.jpg",
+      "image": "nike-af1-white.jpg"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-LeBron-18-LAByDay",
+      "name": "Nike LeBron 18 'LA By Day'",
+      "description": "The Nike LeBron 18 'LA By Day' features a sunny colorway inspired by the vibrant energy of Los Angeles.",
+      "colourway": "Yellow/White",
+      "gender": "Men",
+      "brand": "Nike",
+      "price": 200.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/lebron-18-la.jpg",
+      "image": "lebron-18-la.jpg"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas-ZX-8000-Aqua",
+      "name": "Adidas ZX 8000 'Aqua'",
+      "description": "The Adidas ZX 8000 'Aqua' offers retro running style with a blend of pastel colors and modern cushioning.",
+      "colourway": "Aqua/Yellow",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 120.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/adidas-zx-8000.jpg",
+      "image": "adidas-zx-8000.jpg"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+      "sku": "Converse-Jack-Purcell-White",
+      "name": "Converse Jack Purcell 'White'",
+      "description": "The Converse Jack Purcell in white is a vintage tennis sneaker with a rubber toe cap and signature smile on the toe.",
+      "colourway": "White",
+      "gender": "Unisex",
+      "brand": "Converse",
+      "price": 75.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/jack-purcell.jpg",
+      "image": "jack-purcell.jpg"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Air-Presto-Black",
+      "name": "Nike Air Presto 'Black'",
+      "description": "The Nike Air Presto 'Black' features a sleek, stretchy upper and responsive cushioning for a comfortable fit.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 130.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/nike-presto-black.jpg",
+      "image": "nike-presto-black.jpg"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "products.product",
+    "fields": {
+      "sku": "Puma-Clyde-BlackWhite",
+      "name": "Puma Clyde 'Black/White'",
+      "description": "The Puma Clyde is a classic basketball sneaker with a low-top silhouette and a clean black and white colorway.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Puma",
+      "price": 90.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/puma-clyde.jpg",
+      "image": "puma-clyde.jpg"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Air-Max-1-True-Red",
+      "name": "Nike Air Max 1 'True Red'",
+      "description": "The Nike Air Max 1 'True Red' features a white leather upper with vibrant red accents and the iconic Air unit.",
+      "colourway": "White/Red",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 140.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/air-max-1-true-red.jpg",
+      "image": "air-max-1-true-red.jpg"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "products.product",
+    "fields": {
+      "sku": "New-Balance-550-WhiteBlue",
+      "name": "New Balance 550 'White/Blue'",
+      "description": "The New Balance 550 'White/Blue' features a classic basketball silhouette with retro styling and a clean colorway.",
+      "colourway": "White/Blue",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 110.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/nb-550-white-blue.jpg",
+      "image": "nb-550-white-blue.jpg"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas-Continental-80-WhiteGreen",
+      "name": "Adidas Continental 80 'White/Green'",
+      "description": "The Adidas Continental 80 combines retro style with modern comfort, featuring a soft leather upper.",
+      "colourway": "White/Green",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 90.00,
+      "release_year": 2020,
+      "category": 4,
+      "image_url": "https://example.com/images/adidas-continental-80.jpg",
+      "image": "adidas-continental-80.jpg"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Blazer-Mid-77-WhiteGreen",
+      "name": "Nike Blazer Mid '77 'White/Green'",
+      "description": "The Nike Blazer Mid '77 combines vintage basketball style with modern comfort and durability.",
+      "colourway": "White/Green",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 100.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/nike-blazer-mid.jpg",
+      "image": "nike-blazer-mid.jpg"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas- Superstar-WhiteBlack",
+      "name": "Adidas Superstar 'White/Black'",
+      "description": "The Adidas Superstar is an iconic sneaker known for its shell toe design and classic colorway.",
+      "colourway": "White/Black",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 85.00,
+      "release_year": 2020,
+      "category": 6,
+      "image_url": "https://example.com/images/adidas-superstar.jpg",
+      "image": "adidas-superstar.jpg"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Air-Force-1-Shadow-WhiteBlack",
+      "name": "Nike Air Force 1 Shadow 'White/Black'",
+      "description": "The Nike Air Force 1 Shadow features a layered design for a unique twist on the classic silhouette.",
+      "colourway": "White/Black",
+      "gender": "Women",
+      "brand": "Nike",
+      "price": 110.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/nike-af1-shadow.jpg",
+      "image": "nike-af1-shadow.jpg"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "products.product",
+    "fields": {
+      "sku": "Puma-Future-Runner-BlackWhite",
+      "name": "Puma Future Runner 'Black/White'",
+      "description": "The Puma Future Runner combines sport and style with a sleek design and comfortable fit.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Puma",
+      "price": 100.00,
+      "release_year": 2020,
+      "category": 7,
+      "image_url": "https://example.com/images/puma-future-runner.jpg",
+      "image": "puma-future-runner.jpg"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "products.product",
+    "fields": {
+      "sku": "Asics-Gel-Lyte-III-White",
+      "name": "Asics Gel Lyte III 'White'",
+      "description": "The Asics Gel Lyte III features a split tongue and GEL cushioning for a comfortable and stylish sneaker.",
+      "colourway": "White/Red",
+      "gender": "Unisex",
+      "brand": "Asics",
+      "price": 120.00,
+      "release_year": 2020,
+      "category": 7,
+      "image_url": "https://example.com/images/asics-gel-lyte-iii.jpg",
+      "image": "asics-gel-lyte-iii.jpg"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "products.product",
+    "fields": {
+      "sku": "Hoka-One-One-Bondi-7-Black",
+      "name": "Hoka One One Bondi 7 'Black'",
+      "description": "The Hoka One One Bondi 7 is known for its plush cushioning and comfort, perfect for long runs.",
+      "colourway": "Black/Grey",
+      "gender": "Unisex",
+      "brand": "Hoka One One",
+      "price": 160.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/hoka-bondi-7.jpg",
+      "image": "hoka-bondi-7.jpg"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "products.product",
+    "fields": {
+      "sku": "On-Running-Cloudstratus-White",
+      "name": "On Running Cloudstratus 'White'",
+      "description": "The On Running Cloudstratus features dual CloudTec layers for optimal cushioning and a smooth ride.",
+      "colourway": "White/Black",
+      "gender": "Unisex",
+      "brand": "On Running",
+      "price": 170.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/on-cloudstratus.jpg",
+      "image": "on-cloudstratus.jpg"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "products.product",
+    "fields": {
+      "sku": "Vans-Authentic-Checkered",
+      "name": "Vans Authentic 'Checkered'",
+      "description": "The Vans Authentic features a classic low-top silhouette with a timeless checkered pattern.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Vans",
+      "price": 65.00,
+      "release_year": 2021,
+      "category": 6,
+      "image_url": "https://example.com/images/vans-authentic.jpg",
+      "image": "vans-authentic.jpg"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "products.product",
+    "fields": {
+      "sku": "New-Balance-1080v11-Black",
+      "name": "New Balance 1080v11 'Black'",
+      "description": "The New Balance 1080v11 is designed for comfort and performance with plush cushioning and a breathable upper.",
+      "colourway": "Black/Red",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 150.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/nb-1080v11-black.jpg",
+      "image": "nb-1080v11-black.jpg"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Air-Huarache-Black",
+      "name": "Nike Air Huarache 'Black'",
+      "description": "The Nike Air Huarache 'Black' features a unique neoprene bootie construction and sleek design.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 120.00,
+      "release_year": 2021,
+      "category": 6,
+      "image_url": "https://example.com/images/nike-huarache-black.jpg",
+      "image": "nike-huarache-black.jpg"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "products.product",
+    "fields": {
+      "sku": "Saucony-Kinvara-12-Black",
+      "name": "Saucony Kinvara 12 'Black'",
+      "description": "The Saucony Kinvara 12 offers lightweight cushioning and flexibility for a responsive running experience.",
+      "colourway": "Black/Grey",
+      "gender": "Unisex",
+      "brand": "Saucony",
+      "price": 110.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/saucony-kinvara-12.jpg",
+      "image": "saucony-kinvara-12.jpg"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-React-Infinity-Run-Black",
+      "name": "Nike React Infinity Run 'Black'",
+      "description": "The Nike React Infinity Run features a breathable upper and React foam cushioning for a smooth ride.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 160.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/nike-react-infinity-run.jpg",
+      "image": "nike-react-infinity-run.jpg"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "products.product",
+    "fields": {
+      "sku": "Hoka-One-One-Clifton-7-White",
+      "name": "Hoka One One Clifton 7 'White'",
+      "description": "The Hoka One One Clifton 7 offers lightweight cushioning and a comfortable fit for long-distance runs.",
+      "colourway": "White/Blue",
+      "gender": "Unisex",
+      "brand": "Hoka One One",
+      "price": 140.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/hoka-clifton-7.jpg",
+      "image": "hoka-clifton-7.jpg"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "products.product",
+    "fields": {
+      "sku": "On-Cloudstratus-Black",
+      "name": "On Cloudstratus 'Black'",
+      "description": "The On Cloudstratus provides ultimate comfort and support with dual CloudTec layers for a smooth ride.",
+      "colourway": "Black/Grey",
+      "gender": "Unisex",
+      "brand": "On Running",
+      "price": 170.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/on-cloudstratus-black.jpg",
+      "image": "on-cloudstratus-black.jpg"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "products.product",
+    "fields": {
+      "sku": "Asics-Gel-Kayano-27-White",
+      "name": "Asics Gel Kayano 27 'White'",
+      "description": "The Asics Gel Kayano 27 is designed for stability and comfort, perfect for long runs.",
+      "colourway": "White/Blue",
+      "gender": "Unisex",
+      "brand": "Asics",
+      "price": 160.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/asics-gel-kayano-27.jpg",
+      "image": "asics-gel-kayano-27.jpg"
+    }
+  },
+  {
+    "pk": 81,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Dunk-Low-BlackWhite",
+      "name": "Nike Dunk Low 'Black/White'",
+      "description": "The Nike Dunk Low features a classic basketball-inspired silhouette with a clean black and white color scheme.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 100.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/nike-dunk-low.jpg",
+      "image": "nike-dunk-low.jpg"
+    }
+  },
+  {
+    "pk": 82,
+    "model": "products.product",
+    "fields": {
+      "sku": "Converse-Chuck-Taylor-Black",
+      "name": "Converse Chuck Taylor All Star 'Black'",
+      "description": "The Converse Chuck Taylor All Star in black is a classic sneaker known for its versatile and casual design.",
+      "colourway": "Black",
+      "gender": "Unisex",
+      "brand": "Converse",
+      "price": 55.00,
+      "release_year": 2021,
+      "category": 6,
+      "image_url": "https://example.com/images/converse-chuck-taylor-black.jpg",
+      "image": "converse-chuck-taylor-black.jpg"
+    }
+  },
+  {
+    "pk": 83,
+    "model": "products.product",
+    "fields": {
+      "sku": "New-Balance-1080v10-Grey",
+      "name": "New Balance 1080v10 'Grey'",
+      "description": "The New Balance 1080v10 features Fresh Foam cushioning for a plush, responsive ride.",
+      "colourway": "Grey/Black",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 150.00,
+      "release_year": 2020,
+      "category": 7,
+      "image_url": "https://example.com/images/nb-1080v10-grey.jpg",
+      "image": "nb-1080v10-grey.jpg"
+    }
+  },
+  {
+    "pk": 84,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas-Nite-Jogger-Black",
+      "name": "Adidas Nite Jogger 'Black'",
+      "description": "The Adidas Nite Jogger features reflective accents and Boost cushioning for a stylish and comfortable ride.",
+      "colourway": "Black/Reflective",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 140.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/adidas-nite-jogger.jpg",
+      "image": "adidas-nite-jogger.jpg"
+    }
+  },
+  {
+    "pk": 85,
+    "model": "products.product",
+    "fields": {
+      "sku": "Reebok-Club-C-White",
+      "name": "Reebok Club C 'White'",
+      "description": "The Reebok Club C features a classic design with a soft leather upper and vintage-inspired silhouette.",
+      "colourway": "White/Green",
+      "gender": "Unisex",
+      "brand": "Reebok",
+      "price": 75.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/reebok-club-c.jpg",
+      "image": "reebok-club-c.jpg"
+    }
+  },
+  {
+    "pk": 86,
+    "model": "products.product",
+    "fields": {
+      "sku": "Puma-RS-X-Track-White",
+      "name": "Puma RS-X Track 'White'",
+      "description": "The Puma RS-X Track offers a bold design with chunky proportions and a retro aesthetic.",
+      "colourway": "White/Red",
+      "gender": "Unisex",
+      "brand": "Puma",
+      "price": 110.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/puma-rs-x-track.jpg",
+      "image": "puma-rs-x-track.jpg"
+    }
+  },
+  {
+    "pk": 87,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Air-Max-270-Black",
+      "name": "Nike Air Max 270 'Black'",
+      "description": "The Nike Air Max 270 features a large Air unit for maximum comfort and a modern design.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 150.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/nike-air-max-270.jpg",
+      "image": "nike-air-max-270.jpg"
+    }
+  },
+  {
+    "pk": 88,
+    "model": "products.product",
+    "fields": {
+      "sku": "Hoka-One-One-Rincon-3-White",
+      "name": "Hoka One One Rincon 3 'White'",
+      "description": "The Hoka One One Rincon 3 features a lightweight design and responsive cushioning for speedy runs.",
+      "colourway": "White/Orange",
+      "gender": "Unisex",
+      "brand": "Hoka One One",
+      "price": 130.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/hoka-rincon-3.jpg",
+      "image": "hoka-rincon-3.jpg"
+    }
+  },
+  {
+    "pk": 89,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas-NMD-R1-White",
+      "name": "Adidas NMD R1 'White'",
+      "description": "The Adidas NMD R1 features a sleek design with Boost cushioning and a sock-like fit.",
+      "colourway": "White/Black",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 140.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/adidas-nmd-r1.jpg",
+      "image": "adidas-nmd-r1.jpg"
+    }
+  },
+  {
+    "pk": 90,
+    "model": "products.product",
+    "fields": {
+      "sku": "On-Cloud-White",
+      "name": "On Cloud 'White'",
+      "description": "The On Cloud features a lightweight design with soft cushioning for an enjoyable running experience.",
+      "colourway": "White/Blue",
+      "gender": "Unisex",
+      "brand": "On Running",
+      "price": 130.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/on-cloud.jpg",
+      "image": "on-cloud.jpg"
+    }
+  },
+  {
+    "pk": 91,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-Axis-White",
+      "name": "Nike Axis 'White'",
+      "description": "The Nike Axis is designed for comfort with a breathable upper and supportive cushioning.",
+      "colourway": "White/Grey",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 85.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/nike-axis.jpg",
+      "image": "nike-axis.jpg"
+    }
+  },
+  {
+    "pk": 92,
+    "model": "products.product",
+    "fields": {
+      "sku": "Reebok-Instapump-Fury-Black",
+      "name": "Reebok Instapump Fury 'Black'",
+      "description": "The Reebok Instapump Fury features a unique laceless design and bold styling for a standout look.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Reebok",
+      "price": 150.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/reebok-instapump-fury.jpg",
+      "image": "reebok-instapump-fury.jpg"
+    }
+  },
+  {
+    "pk": 93,
+    "model": "products.product",
+    "fields": {
+      "sku": "Puma-Cell-Maia-White",
+      "name": "Puma Cell Maia 'White'",
+      "description": "The Puma Cell Maia features a chunky silhouette with a retro design and comfortable cushioning.",
+      "colourway": "White/Neon",
+      "gender": "Women",
+      "brand": "Puma",
+      "price": 110.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/puma-cell-maia.jpg",
+      "image": "puma-cell-maia.jpg"
+    }
+  },
+  {
+    "pk": 94,
+    "model": "products.product",
+    "fields": {
+      "sku": "Vans-Sk8-Hi-BlackWhite",
+      "name": "Vans Sk8-Hi 'Black/White'",
+      "description": "The Vans Sk8-Hi is a classic high-top sneaker featuring a durable upper and signature side stripe.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Vans",
+      "price": 75.00,
+      "release_year": 2021,
+      "category": 6,
+      "image_url": "https://example.com/images/vans-sk8-hi.jpg",
+      "image": "vans-sk8-hi.jpg"
+    }
+  },
+  {
+    "pk": 95,
+    "model": "products.product",
+    "fields": {
+      "sku": "Asics-Gel-Venture-7-Black",
+      "name": "Asics Gel Venture 7 'Black'",
+      "description": "The Asics Gel Venture 7 is built for trail running with excellent cushioning and traction.",
+      "colourway": "Black/Red",
+      "gender": "Unisex",
+      "brand": "Asics",
+      "price": 90.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/asics-gel-venture-7.jpg",
+      "image": "asics-gel-venture-7.jpg"
+    }
+  },
+  {
+    "pk": 96,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-React-Element-55-Black",
+      "name": "Nike React Element 55 'Black'",
+      "description": "The Nike React Element 55 features a stylish design with responsive cushioning for all-day comfort.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 130.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/nike-react-element-55.jpg",
+      "image": "nike-react-element-55.jpg"
+    }
+  },
+  {
+    "pk": 97,
+    "model": "products.product",
+    "fields": {
+      "sku": "Puma-California-White",
+      "name": "Puma California 'White'",
+      "description": "The Puma California features a clean design with retro-inspired elements and comfortable cushioning.",
+      "colourway": "White/Blue",
+      "gender": "Unisex",
+      "brand": "Puma",
+      "price": 80.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/puma-california.jpg",
+      "image": "puma-california.jpg"
+    }
+  },
+  {
+    "pk": 98,
+    "model": "products.product",
+    "fields": {
+      "sku": "Nike-SB-Dunk-High-BlackWhite",
+      "name": "Nike SB Dunk High 'Black/White'",
+      "description": "The Nike SB Dunk High features a skate-friendly design with a padded collar for support.",
+      "colourway": "Black/White",
+      "gender": "Unisex",
+      "brand": "Nike",
+      "price": 120.00,
+      "release_year": 2021,
+      "category": 4,
+      "image_url": "https://example.com/images/nike-sb-dunk-high.jpg",
+      "image": "nike-sb-dunk-high.jpg"
+    }
+  },
+  {
+    "pk": 99,
+    "model": "products.product",
+    "fields": {
+      "sku": "Adidas-Yeezy-Boost-350-V2-Zebra",
+      "name": "Adidas Yeezy Boost 350 V2 'Zebra'",
+      "description": "The Adidas Yeezy Boost 350 V2 'Zebra' features a unique black and white striped design with responsive Boost cushioning.",
+      "colourway": "White/Black",
+      "gender": "Unisex",
+      "brand": "Adidas",
+      "price": 220.00,
+      "release_year": 2021,
+      "category": 6,
+      "image_url": "https://example.com/images/adidas-yeezy-boost-350-v2.jpg",
+      "image": "adidas-yeezy-boost-350-v2.jpg"
+    }
+  },
+  {
+    "pk": 100,
+    "model": "products.product",
+    "fields": {
+      "sku": "New-Balance-990v5-Grey",
+      "name": "New Balance 990v5 'Grey'",
+      "description": "The New Balance 990v5 is known for its premium materials and classic silhouette, offering exceptional comfort.",
+      "colourway": "Grey",
+      "gender": "Unisex",
+      "brand": "New Balance",
+      "price": 185.00,
+      "release_year": 2021,
+      "category": 7,
+      "image_url": "https://example.com/images/nb-990v5-grey.jpg",
+      "image": "nb-990v5-grey.jpg"
+    }
+  }
+]

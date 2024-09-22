@@ -1,0 +1,58 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "new_in",
+      "friendly_name": "New In"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "sale",
+      "friendly_name": "Sale"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "best_sellers",
+      "friendly_name": "Best Sellers"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "trainers",
+      "friendly_name": "Trainers"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "premium_trainers",
+      "friendly_name": "Premium Trainers"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "classics",
+      "friendly_name": "Classics"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+      "name": "active_trainers",
+      "friendly_name": "Active Trainers"
+    }
+  }
+]
