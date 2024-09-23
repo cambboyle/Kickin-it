@@ -12,8 +12,9 @@
       "price": 600.00,
       "release_year": 2016,
       "category": 6,
-      "image_url": "https://example.com/images/aj1-bred.jpg",
-      "image": "aj1-bred.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj1-bred.png",
+      "image": "aj1-bred.png",
+      "is_featured": false
     }
   },
   {
@@ -22,15 +23,16 @@
     "fields": {
       "sku": "YZ350-V2-Beluga",
       "name": "Yeezy Boost 350 V2 'Beluga'",
-      "description": "The Yeezy Boost 350 V2 ‘Beluga’ showcases a signature grey-orange colorway and Primeknit construction.",
+      "description": "The Yeezy Boost 350 V2 Beluga showcases a signature grey-orange colorway and Primeknit construction.",
       "colourway": "Grey/Orange",
       "gender": "Men",
       "brand": "Adidas",
       "price": 350.00,
       "release_year": 2017,
       "category": 5,
-      "image_url": "https://example.com/images/yeezy-beluga.jpg",
-      "image": "yeezy-beluga.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-beluga.png",
+      "image": "yeezy-beluga.png",
+      "is_featured": false
     }
   },
   {
@@ -46,8 +48,9 @@
       "price": 90.00,
       "release_year": 1982,
       "category": 4,
-      "image_url": "https://example.com/images/af1-low-white.jpg",
-      "image": "af1-low-white.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/af1-low-white.png",
+      "image": "af1-low-white.png",
+      "is_featured": false
     }
   },
   {
@@ -63,8 +66,9 @@
       "price": 175.00,
       "release_year": 2019,
       "category": 7,
-      "image_url": "https://example.com/images/nb-990v5-grey.jpg",
-      "image": "nb-990v5-grey.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-990v5-grey.png",
+      "image": "nb-990v5-grey.png",
+      "is_featured": false
     }
   },
   {
@@ -80,8 +84,9 @@
       "price": 85.00,
       "release_year": 2020,
       "category": 6,
-      "image_url": "https://example.com/images/converse-70-black.jpg",
-      "image": "converse-70-black.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/converse-70-black.png",
+      "image": "converse-70-black.png",
+      "is_featured": false
     }
   },
   {
@@ -97,8 +102,9 @@
       "price": 300.00,
       "release_year": 2017,
       "category": 5,
-      "image_url": "https://example.com/images/yeezy-700-wave.jpg",
-      "image": "yeezy-700-wave.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-700-wave.png",
+      "image": "yeezy-700-wave.png",
+      "is_featured": false
     }
   },
   {
@@ -114,8 +120,9 @@
       "price": 450.00,
       "release_year": 2016,
       "category": 6,
-      "image_url": "https://example.com/images/aj4-whitecement.jpg",
-      "image": "aj4-whitecement.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj4-whitecement.png",
+      "image": "aj4-whitecement.png",
+      "is_featured": false
     }
   },
   {
@@ -131,8 +138,9 @@
       "price": 100.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/nb-327-castlerock.jpg",
-      "image": "nb-327-castlerock.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-327-castlerock.png",
+      "image": "nb-327-castlerock.png",
+      "is_featured": false
     }
   },
   {
@@ -148,8 +156,9 @@
       "price": 60.00,
       "release_year": 1977,
       "category": 6,
-      "image_url": "https://example.com/images/vans-oldskool.jpg",
-      "image": "vans-oldskool.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/vans-oldskool.png",
+      "image": "vans-oldskool.png",
+      "is_featured": false
     }
   },
   {
@@ -165,8 +174,9 @@
       "price": 150.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/sb-dunk-panda.jpg",
-      "image": "sb-dunk-panda.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/sb-dunk-panda.png",
+      "image": "sb-dunk-panda.png",
+      "is_featured": false
     }
   },
   {
@@ -182,8 +192,9 @@
       "price": 450.00,
       "release_year": 2018,
       "category": 6,
-      "image_url": "https://example.com/images/aj3-blackcement.jpg",
-      "image": "aj3-blackcement.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj3-blackcement.png",
+      "image": "aj3-blackcement.png",
+      "is_featured": false
     }
   },
   {
@@ -199,8 +210,9 @@
       "price": 250.00,
       "release_year": 2018,
       "category": 5,
-      "image_url": "https://example.com/images/yeezy-500-blush.jpg",
-      "image": "yeezy-500-blush.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-500-blush.png",
+      "image": "yeezy-500-blush.png",
+      "is_featured": false
     }
   },
   {
@@ -216,8 +228,9 @@
       "price": 100.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/blazer-mid-vintage.jpg",
-      "image": "blazer-mid-vintage.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/blazer-mid-vintage.png",
+      "image": "blazer-mid-vintage.png",
+      "is_featured": false
     }
   },
   {
@@ -233,8 +246,9 @@
       "price": 90.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/af1-low-tripleblack.jpg",
-      "image": "af1-low-tripleblack.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/af1-low-tripleblack.png",
+      "image": "af1-low-tripleblack.png",
+      "is_featured": false
     }
   },
   {
@@ -250,8 +264,9 @@
       "price": 65.00,
       "release_year": 2019,
       "category": 6,
-      "image_url": "https://example.com/images/puma-suede-classic.jpg",
-      "image": "puma-suede-classic.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-suede-classic.png",
+      "image": "puma-suede-classic.png",
+      "is_featured": false
     }
   },
   {
@@ -267,8 +282,9 @@
       "price": 230.00,
       "release_year": 2020,
       "category": 5,
-      "image_url": "https://example.com/images/yeezy-380-alien.jpg",
-      "image": "yeezy-380-alien.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-380-alien.png",
+      "image": "yeezy-380-alien.png",
+      "is_featured": false
     }
   },
   {
@@ -284,8 +300,9 @@
       "price": 400.00,
       "release_year": 2020,
       "category": 6,
-      "image_url": "https://example.com/images/aj5-grape.jpg",
-      "image": "aj5-grape.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj5-grape.png",
+      "image": "aj5-grape.png",
+      "is_featured": false
     }
   },
   {
@@ -301,8 +318,9 @@
       "price": 80.00,
       "release_year": 2018,
       "category": 4,
-      "image_url": "https://example.com/images/nb-574-grey.jpg",
-      "image": "nb-574-grey.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-574-grey.png",
+      "image": "nb-574-grey.png",
+      "is_featured": false
     }
   },
   {
@@ -318,8 +336,9 @@
       "price": 65.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/vans-sk8hi.jpg",
-      "image": "vans-sk8hi.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/vans-sk8hi.png",
+      "image": "vans-sk8hi.png",
+      "is_featured": false
     }
   },
   {
@@ -335,8 +354,9 @@
       "price": 400.00,
       "release_year": 2019,
       "category": 6,
-      "image_url": "https://example.com/images/aj6-infrared.jpg",
-      "image": "aj6-infrared.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj6-infrared.png",
+      "image": "aj6-infrared.png",
+      "is_featured": true
     }
   },
   {
@@ -352,8 +372,9 @@
       "price": 450.00,
       "release_year": 2016,
       "category": 5,
-      "image_url": "https://example.com/images/aj12-flugame.jpg",
-      "image": "aj12-flugame.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj12-flugame.png",
+      "image": "aj12-flugame.png",
+      "is_featured": false
     }
   },
   {
@@ -369,8 +390,9 @@
       "price": 75.00,
       "release_year": 2018,
       "category": 4,
-      "image_url": "https://example.com/images/converse-onestar.jpg",
-      "image": "converse-onestar.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/converse-onestar.png",
+      "image": "converse-onestar.png",
+      "is_featured": false
     }
   },
   {
@@ -386,8 +408,9 @@
       "price": 220.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/nb-1500-uk.jpg",
-      "image": "nb-1500-uk.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-1500-uk.png",
+      "image": "nb-1500-uk.png",
+      "is_featured": false
     }
   },
   {
@@ -403,8 +426,9 @@
       "price": 200.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/sb-dunk-streethawker.jpg",
-      "image": "sb-dunk-streethawker.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/sb-dunk-streethawker.png",
+      "image": "sb-dunk-streethawker.png",
+      "is_featured": false
     }
   },
   {
@@ -420,8 +444,9 @@
       "price": 120.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/puma-rsx-cubic.jpg",
-      "image": "puma-rsx-cubic.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-rsx-cubic.png",
+      "image": "puma-rsx-cubic.png",
+      "is_featured": false
     }
   },
   {
@@ -437,8 +462,9 @@
       "price": 350.00,
       "release_year": 2018,
       "category": 5,
-      "image_url": "https://example.com/images/aj11-concord.jpg",
-      "image": "aj11-concord.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj11-concord.png",
+      "image": "aj11-concord.png",
+      "is_featured": false
     }
   },
   {
@@ -454,8 +480,9 @@
       "price": 200.00,
       "release_year": 2019,
       "category": 6,
-      "image_url": "https://example.com/images/yeezy-500-salt.jpg",
-      "image": "yeezy-500-salt.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-500-salt.png",
+      "image": "yeezy-500-salt.png",
+      "is_featured": false
     }
   },
   {
@@ -464,15 +491,16 @@
     "fields": {
       "sku": "Nike-Dunk-Low-Syracuse",
       "name": "Nike Dunk Low 'Syracuse'",
-      "description": "The Nike Dunk Low 'Syracuse' showcases a classic orange and white colorway, originally part of the 'Be True to Your School' series.",
+      "description": "The Nike Dunk Low 'Syracuse' showcases a classic orange and white colorway, originally part of the 'Be false to Your School' series.",
       "colourway": "White/Orange",
       "gender": "Unisex",
       "brand": "Nike",
       "price": 180.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/nike-dunk-syracuse.jpg",
-      "image": "nike-dunk-syracuse.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-dunk-syracuse.png",
+      "image": "nike-dunk-syracuse.png",
+      "is_featured": false
     }
   },
   {
@@ -488,8 +516,9 @@
       "price": 90.00,
       "release_year": 2019,
       "category": 4,
-      "image_url": "https://example.com/images/nb-997h-navy.jpg",
-      "image": "nb-997h-navy.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-997h-navy.png",
+      "image": "nb-997h-navy.png",
+      "is_featured": false
     }
   },
   {
@@ -505,8 +534,9 @@
       "price": 220.00,
       "release_year": 2021,
       "category": 6,
-      "image_url": "https://example.com/images/aj6-carmine.jpg",
-      "image": "aj6-carmine.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj6-carmine.png",
+      "image": "aj6-carmine.png",
+      "is_featured": false
     }
   },
   {
@@ -522,8 +552,9 @@
       "price": 180.00,
       "release_year": 2017,
       "category": 6,
-      "image_url": "https://example.com/images/air-max-97-silver-bullet.jpg",
-      "image": "air-max-97-silver-bullet.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/air-max-97-silver-bullet.png",
+      "image": "air-max-97-silver-bullet.png",
+      "is_featured": false
     }
   },
   {
@@ -539,8 +570,9 @@
       "price": 70.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/reebok-clubc-85.jpg",
-      "image": "reebok-clubc-85.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-clubc-85.png",
+      "image": "reebok-clubc-85.png",
+      "is_featured": false
     }
   },
   {
@@ -556,8 +588,9 @@
       "price": 130.00,
       "release_year": 2020,
       "category": 7,
-      "image_url": "https://example.com/images/nike-space-hippie-01.jpg",
-      "image": "nike-space-hippie-01.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-space-hippie-01.png",
+      "image": "nike-space-hippie-01.png",
+      "is_featured": false
     }
   },
   {
@@ -573,8 +606,9 @@
       "price": 80.00,
       "release_year": 2019,
       "category": 4,
-      "image_url": "https://example.com/images/puma-ralph-sampson.jpg",
-      "image": "puma-ralph-sampson.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-ralph-sampson.png",
+      "image": "puma-ralph-sampson.png",
+      "is_featured": false
     }
   },
   {
@@ -590,8 +624,9 @@
       "price": 240.00,
       "release_year": 2020,
       "category": 5,
-      "image_url": "https://example.com/images/yeezy-cinder.jpg",
-      "image": "yeezy-cinder.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-cinder.png",
+      "image": "yeezy-cinder.png",
+      "is_featured": false
     }
   },
   {
@@ -607,8 +642,9 @@
       "price": 140.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/nike-sacai-blazer.jpg",
-      "image": "nike-sacai-blazer.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-sacai-blazer.png",
+      "image": "nike-sacai-blazer.png",
+      "is_featured": false
     }
   },
   {
@@ -624,8 +660,9 @@
       "price": 125.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/aj1-mid-bred.jpg",
-      "image": "aj1-mid-bred.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj1-mid-bred.png",
+      "image": "aj1-mid-bred.png",
+      "is_featured": false
     }
   },
   {
@@ -641,8 +678,9 @@
       "price": 80.00,
       "release_year": 2019,
       "category": 4,
-      "image_url": "https://example.com/images/nb-574-navy.jpg",
-      "image": "nb-574-navy.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-574-navy.png",
+      "image": "nb-574-navy.png",
+      "is_featured": false
     }
   },
   {
@@ -658,8 +696,9 @@
       "price": 90.00,
       "release_year": 2020,
       "category": 7,
-      "image_url": "https://example.com/images/nike-tailwind-79.jpg",
-      "image": "nike-tailwind-79.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-tailwind-79.png",
+      "image": "nike-tailwind-79.png",
+      "is_featured": false
     }
   },
   {
@@ -675,8 +714,9 @@
       "price": 160.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/reebok-instapump-fury.jpg",
-      "image": "reebok-instapump-fury.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-instapump-fury.png",
+      "image": "reebok-instapump-fury.png",
+      "is_featured": false
     }
   },
   {
@@ -692,8 +732,9 @@
       "price": 85.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/nike-blazer-low-white.jpg",
-      "image": "nike-blazer-low-white.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-blazer-low-white.png",
+      "image": "nike-blazer-low-white.png",
+      "is_featured": false
     }
   },
   {
@@ -709,8 +750,9 @@
       "price": 250.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/nike-sb-chicago.jpg",
-      "image": "nike-sb-chicago.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-sb-chicago.png",
+      "image": "nike-sb-chicago.png",
+      "is_featured": false
     }
   },
   {
@@ -726,8 +768,9 @@
       "price": 110.00,
       "release_year": 2020,
       "category": 6,
-      "image_url": "https://example.com/images/adidas-forum-84-high.jpg",
-      "image": "adidas-forum-84-high.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-forum-84-high.png",
+      "image": "adidas-forum-84-high.png",
+      "is_featured": false
     }
   },
   {
@@ -743,25 +786,9 @@
       "price": 220.00,
       "release_year": 2020,
       "category": 5,
-      "image_url": "https://example.com/images/aj4-fire-red.jpg",
-      "image": "aj4-fire-red.jpg"
-    }
-  },
-  {
-    "pk": 45,
-    "model": "products.product",
-    "fields": {
-      "sku": "Vans-OldSkool-BlackWhite",
-      "name": "Vans Old Skool 'Black/White'",
-      "description": "The Vans Old Skool 'Black/White' is a low-top skate shoe featuring durable canvas and the iconic side stripe.",
-      "colourway": "Black/White",
-      "gender": "Unisex",
-      "brand": "Vans",
-      "price": 60.00,
-      "release_year": 2020,
-      "category": 6,
-      "image_url": "https://example.com/images/vans-oldskool.jpg",
-      "image": "vans-oldskool.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj4-fire-red.png",
+      "image": "aj4-fire-red.png",
+      "is_featured": false
     }
   },
   {
@@ -777,8 +804,9 @@
       "price": 140.00,
       "release_year": 2019,
       "category": 4,
-      "image_url": "https://example.com/images/adidas-nmd-r1.jpg",
-      "image": "adidas-nmd-r1.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-nmd-r1.png",
+      "image": "adidas-nmd-r1.png",
+      "is_featured": true
     }
   },
   {
@@ -794,8 +822,9 @@
       "price": 175.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/nb-992-grey.jpg",
-      "image": "nb-992-grey.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-992-grey.png",
+      "image": "nb-992-grey.png",
+      "is_featured": false
     }
   },
   {
@@ -811,8 +840,9 @@
       "price": 120.00,
       "release_year": 2019,
       "category": 4,
-      "image_url": "https://example.com/images/adidas-yung1-cloudwhite.jpg",
-      "image": "adidas-yung1-cloudwhite.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-yung1-cloudwhite.png",
+      "image": "adidas-yung1-cloudwhite.png",
+      "is_featured": false
     }
   },
   {
@@ -828,8 +858,9 @@
       "price": 1300.00,
       "release_year": 2020,
       "category": 5,
-      "image_url": "https://example.com/images/nike-sb-travis-scott.jpg",
-      "image": "nike-sb-travis-scott.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-sb-travis-scott.png",
+      "image": "nike-sb-travis-scott.png",
+      "is_featured": true
     }
   },
   {
@@ -845,8 +876,9 @@
       "price": 55.00,
       "release_year": 2020,
       "category": 6,
-      "image_url": "https://example.com/images/converse-chuck-taylor.jpg",
-      "image": "converse-chuck-taylor.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/converse-chuck-taylor.png",
+      "image": "converse-chuck-taylor.png",
+      "is_featured": false
     }
   },
   {
@@ -862,8 +894,9 @@
       "price": 180.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/air-max-90-bacon.jpg",
-      "image": "air-max-90-bacon.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/air-max-90-bacon.png",
+      "image": "air-max-90-bacon.png",
+      "is_featured": false
     }
   },
   {
@@ -879,8 +912,9 @@
       "price": 70.00,
       "release_year": 2019,
       "category": 6,
-      "image_url": "https://example.com/images/adidas-samba.jpg",
-      "image": "adidas-samba.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-samba.png",
+      "image": "adidas-samba.png",
+      "is_featured": false
     }
   },
   {
@@ -896,8 +930,9 @@
       "price": 110.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/puma-rsx.jpg",
-      "image": "puma-rsx.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-rsx.png",
+      "image": "puma-rsx.png",
+      "is_featured": false
     }
   },
   {
@@ -913,8 +948,9 @@
       "price": 110.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/nb-550-white-red.jpg",
-      "image": "nb-550-white-red.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-550-white-red.png",
+      "image": "nb-550-white-red.png",
+      "is_featured": false
     }
   },
   {
@@ -930,8 +966,9 @@
       "price": 140.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/air-max-1-anniversary.jpg",
-      "image": "air-max-1-anniversary.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/air-max-1-anniversary.png",
+      "image": "air-max-1-anniversary.png",
+      "is_featured": false
     }
   },
   {
@@ -947,8 +984,9 @@
       "price": 150.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/reebok-question-red-toe.jpg",
-      "image": "reebok-question-red-toe.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-question-red-toe.png",
+      "image": "reebok-question-red-toe.png",
+      "is_featured": false
     }
   },
   {
@@ -964,8 +1002,9 @@
       "price": 90.00,
       "release_year": 2021,
       "category": 6,
-      "image_url": "https://example.com/images/nike-af1-white.jpg",
-      "image": "nike-af1-white.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-af1-white.png",
+      "image": "nike-af1-white.png",
+      "is_featured": false
     }
   },
   {
@@ -981,8 +1020,9 @@
       "price": 200.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/lebron-18-la.jpg",
-      "image": "lebron-18-la.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/lebron-18-la.png",
+      "image": "lebron-18-la.png",
+      "is_featured": false
     }
   },
   {
@@ -998,8 +1038,9 @@
       "price": 120.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/adidas-zx-8000.jpg",
-      "image": "adidas-zx-8000.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-zx-8000.png",
+      "image": "adidas-zx-8000.png",
+      "is_featured": false
     }
   },
   {
@@ -1015,8 +1056,9 @@
       "price": 75.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/jack-purcell.jpg",
-      "image": "jack-purcell.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/jack-purcell.png",
+      "image": "jack-purcell.png",
+      "is_featured": false
     }
   },
   {
@@ -1032,8 +1074,9 @@
       "price": 130.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/nike-presto-black.jpg",
-      "image": "nike-presto-black.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-presto-black.png",
+      "image": "nike-presto-black.png",
+      "is_featured": false
     }
   },
   {
@@ -1049,25 +1092,27 @@
       "price": 90.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/puma-clyde.jpg",
-      "image": "puma-clyde.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-clyde.png",
+      "image": "puma-clyde.png",
+      "is_featured": false
     }
   },
   {
     "pk": 63,
     "model": "products.product",
     "fields": {
-      "sku": "Nike-Air-Max-1-True-Red",
-      "name": "Nike Air Max 1 'True Red'",
-      "description": "The Nike Air Max 1 'True Red' features a white leather upper with vibrant red accents and the iconic Air unit.",
+      "sku": "Nike-Air-Max-1 false-Red",
+      "name": "Nike Air Max 1  false Red'",
+      "description": "The Nike Air Max 1  false Red' features a white leather upper with vibrant red accents and the iconic Air unit.",
       "colourway": "White/Red",
       "gender": "Unisex",
       "brand": "Nike",
       "price": 140.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/air-max-1-true-red.jpg",
-      "image": "air-max-1-true-red.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/air-max-1 false-red.png",
+      "image": "air-max-1 false-red.png",
+      "is_featured": false
     }
   },
   {
@@ -1083,8 +1128,9 @@
       "price": 110.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/nb-550-white-blue.jpg",
-      "image": "nb-550-white-blue.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-550-white-blue.png",
+      "image": "nb-550-white-blue.png",
+      "is_featured": false
     }
   },
   {
@@ -1100,8 +1146,9 @@
       "price": 90.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://example.com/images/adidas-continental-80.jpg",
-      "image": "adidas-continental-80.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-continental-80.png",
+      "image": "adidas-continental-80.png",
+      "is_featured": false
     }
   },
   {
@@ -1117,8 +1164,9 @@
       "price": 100.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/nike-blazer-mid.jpg",
-      "image": "nike-blazer-mid.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-blazer-mid.png",
+      "image": "nike-blazer-mid.png",
+      "is_featured": false
     }
   },
   {
@@ -1134,8 +1182,9 @@
       "price": 85.00,
       "release_year": 2020,
       "category": 6,
-      "image_url": "https://example.com/images/adidas-superstar.jpg",
-      "image": "adidas-superstar.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-superstar.png",
+      "image": "adidas-superstar.png",
+      "is_featured": false
     }
   },
   {
@@ -1151,8 +1200,9 @@
       "price": 110.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/nike-af1-shadow.jpg",
-      "image": "nike-af1-shadow.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-af1-shadow.png",
+      "image": "nike-af1-shadow.png",
+      "is_featured": false
     }
   },
   {
@@ -1168,8 +1218,9 @@
       "price": 100.00,
       "release_year": 2020,
       "category": 7,
-      "image_url": "https://example.com/images/puma-future-runner.jpg",
-      "image": "puma-future-runner.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-future-runner.png",
+      "image": "puma-future-runner.png",
+      "is_featured": false
     }
   },
   {
@@ -1185,8 +1236,9 @@
       "price": 120.00,
       "release_year": 2020,
       "category": 7,
-      "image_url": "https://example.com/images/asics-gel-lyte-iii.jpg",
-      "image": "asics-gel-lyte-iii.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/asics-gel-lyte-iii.png",
+      "image": "asics-gel-lyte-iii.png",
+      "is_featured": false
     }
   },
   {
@@ -1202,8 +1254,9 @@
       "price": 160.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/hoka-bondi-7.jpg",
-      "image": "hoka-bondi-7.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/hoka-bondi-7.png",
+      "image": "hoka-bondi-7.png",
+      "is_featured": false
     }
   },
   {
@@ -1219,8 +1272,9 @@
       "price": 170.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/on-cloudstratus.jpg",
-      "image": "on-cloudstratus.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/on-cloudstratus.png",
+      "image": "on-cloudstratus.png",
+      "is_featured": false
     }
   },
   {
@@ -1236,8 +1290,9 @@
       "price": 65.00,
       "release_year": 2021,
       "category": 6,
-      "image_url": "https://example.com/images/vans-authentic.jpg",
-      "image": "vans-authentic.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/vans-authentic.png",
+      "image": "vans-authentic.png",
+      "is_featured": false
     }
   },
   {
@@ -1253,8 +1308,9 @@
       "price": 150.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/nb-1080v11-black.jpg",
-      "image": "nb-1080v11-black.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-1080v11-black.png",
+      "image": "nb-1080v11-black.png",
+      "is_featured": false
     }
   },
   {
@@ -1270,8 +1326,9 @@
       "price": 120.00,
       "release_year": 2021,
       "category": 6,
-      "image_url": "https://example.com/images/nike-huarache-black.jpg",
-      "image": "nike-huarache-black.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-huarache-black.png",
+      "image": "nike-huarache-black.png",
+      "is_featured": false
     }
   },
   {
@@ -1287,8 +1344,9 @@
       "price": 110.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/saucony-kinvara-12.jpg",
-      "image": "saucony-kinvara-12.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/saucony-kinvara-12.png",
+      "image": "saucony-kinvara-12.png",
+      "is_featured": false
     }
   },
   {
@@ -1304,8 +1362,9 @@
       "price": 160.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/nike-react-infinity-run.jpg",
-      "image": "nike-react-infinity-run.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-react-infinity-run.png",
+      "image": "nike-react-infinity-run.png",
+      "is_featured": false
     }
   },
   {
@@ -1321,8 +1380,9 @@
       "price": 140.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/hoka-clifton-7.jpg",
-      "image": "hoka-clifton-7.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/hoka-clifton-7.png",
+      "image": "hoka-clifton-7.png",
+      "is_featured": false
     }
   },
   {
@@ -1338,8 +1398,9 @@
       "price": 170.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/on-cloudstratus-black.jpg",
-      "image": "on-cloudstratus-black.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/on-cloudstratus-black.png",
+      "image": "on-cloudstratus-black.png",
+      "is_featured": false
     }
   },
   {
@@ -1355,8 +1416,9 @@
       "price": 160.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/asics-gel-kayano-27.jpg",
-      "image": "asics-gel-kayano-27.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/asics-gel-kayano-27.png",
+      "image": "asics-gel-kayano-27.png",
+      "is_featured": false
     }
   },
   {
@@ -1372,8 +1434,9 @@
       "price": 100.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/nike-dunk-low.jpg",
-      "image": "nike-dunk-low.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-dunk-low.png",
+      "image": "nike-dunk-low.png",
+      "is_featured": false
     }
   },
   {
@@ -1389,8 +1452,9 @@
       "price": 55.00,
       "release_year": 2021,
       "category": 6,
-      "image_url": "https://example.com/images/converse-chuck-taylor-black.jpg",
-      "image": "converse-chuck-taylor-black.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/converse-chuck-taylor-black.png",
+      "image": "converse-chuck-taylor-black.png",
+      "is_featured": false
     }
   },
   {
@@ -1406,8 +1470,9 @@
       "price": 150.00,
       "release_year": 2020,
       "category": 7,
-      "image_url": "https://example.com/images/nb-1080v10-grey.jpg",
-      "image": "nb-1080v10-grey.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-1080v10-grey.png",
+      "image": "nb-1080v10-grey.png",
+      "is_featured": false
     }
   },
   {
@@ -1423,8 +1488,9 @@
       "price": 140.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/adidas-nite-jogger.jpg",
-      "image": "adidas-nite-jogger.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-nite-jogger.png",
+      "image": "adidas-nite-jogger.png",
+      "is_featured": false
     }
   },
   {
@@ -1440,8 +1506,9 @@
       "price": 75.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/reebok-club-c.jpg",
-      "image": "reebok-club-c.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-club-c.png",
+      "image": "reebok-club-c.png",
+      "is_featured": false
     }
   },
   {
@@ -1457,8 +1524,9 @@
       "price": 110.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/puma-rs-x-track.jpg",
-      "image": "puma-rs-x-track.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-rs-x-track.png",
+      "image": "puma-rs-x-track.png",
+      "is_featured": false
     }
   },
   {
@@ -1474,8 +1542,9 @@
       "price": 150.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/nike-air-max-270.jpg",
-      "image": "nike-air-max-270.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-air-max-270.png",
+      "image": "nike-air-max-270.png",
+      "is_featured": false
     }
   },
   {
@@ -1491,8 +1560,9 @@
       "price": 130.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/hoka-rincon-3.jpg",
-      "image": "hoka-rincon-3.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/hoka-rincon-3.png",
+      "image": "hoka-rincon-3.png",
+      "is_featured": false
     }
   },
   {
@@ -1508,8 +1578,9 @@
       "price": 140.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/adidas-nmd-r1.jpg",
-      "image": "adidas-nmd-r1.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-nmd-r1.png",
+      "image": "adidas-nmd-r1.png",
+      "is_featured": false
     }
   },
   {
@@ -1525,8 +1596,9 @@
       "price": 130.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/on-cloud.jpg",
-      "image": "on-cloud.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/on-cloud.png",
+      "image": "on-cloud.png",
+      "is_featured": false
     }
   },
   {
@@ -1542,8 +1614,9 @@
       "price": 85.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/nike-axis.jpg",
-      "image": "nike-axis.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-axis.png",
+      "image": "nike-axis.png",
+      "is_featured": false
     }
   },
   {
@@ -1559,8 +1632,9 @@
       "price": 150.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/reebok-instapump-fury.jpg",
-      "image": "reebok-instapump-fury.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-instapump-fury.png",
+      "image": "reebok-instapump-fury.png",
+      "is_featured": false
     }
   },
   {
@@ -1576,8 +1650,9 @@
       "price": 110.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/puma-cell-maia.jpg",
-      "image": "puma-cell-maia.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-cell-maia.png",
+      "image": "puma-cell-maia.png",
+      "is_featured": false
     }
   },
   {
@@ -1593,8 +1668,9 @@
       "price": 75.00,
       "release_year": 2021,
       "category": 6,
-      "image_url": "https://example.com/images/vans-sk8-hi.jpg",
-      "image": "vans-sk8-hi.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/vans-sk8-hi.png",
+      "image": "vans-sk8-hi.png",
+      "is_featured": false
     }
   },
   {
@@ -1610,8 +1686,9 @@
       "price": 90.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/asics-gel-venture-7.jpg",
-      "image": "asics-gel-venture-7.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/asics-gel-venture-7.png",
+      "image": "asics-gel-venture-7.png",
+      "is_featured": false
     }
   },
   {
@@ -1627,8 +1704,9 @@
       "price": 130.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/nike-react-element-55.jpg",
-      "image": "nike-react-element-55.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-react-element-55.png",
+      "image": "nike-react-element-55.png",
+      "is_featured": false
     }
   },
   {
@@ -1644,8 +1722,9 @@
       "price": 80.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/puma-california.jpg",
-      "image": "puma-california.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-california.png",
+      "image": "puma-california.png",
+      "is_featured": false
     }
   },
   {
@@ -1661,8 +1740,9 @@
       "price": 120.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://example.com/images/nike-sb-dunk-high.jpg",
-      "image": "nike-sb-dunk-high.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-sb-dunk-high.png",
+      "image": "nike-sb-dunk-high.png",
+      "is_featured": false
     }
   },
   {
@@ -1678,8 +1758,9 @@
       "price": 220.00,
       "release_year": 2021,
       "category": 6,
-      "image_url": "https://example.com/images/adidas-yeezy-boost-350-v2.jpg",
-      "image": "adidas-yeezy-boost-350-v2.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-yeezy-boost-350-v2.png",
+      "image": "adidas-yeezy-boost-350-v2.png",
+      "is_featured": true
     }
   },
   {
@@ -1695,8 +1776,9 @@
       "price": 185.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://example.com/images/nb-990v5-grey.jpg",
-      "image": "nb-990v5-grey.jpg"
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-990v5-grey.png",
+      "image": "nb-990v5-grey.png",
+      "is_featured": false
     }
   }
 ]
