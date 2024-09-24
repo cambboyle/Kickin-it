@@ -126,7 +126,22 @@ body {
 .card-style {
     width: 18rem;
 }
+
+.card-text {
+    color: black;
+}
   
+/* Products */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #22262a;
+    z-index: -1;
+}
 
 /* Media Queries */
 
