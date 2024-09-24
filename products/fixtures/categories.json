@@ -19,8 +19,8 @@
     "pk": 3,
     "model": "products.category",
     "fields": {
-      "name": "best_sellers",
-      "friendly_name": "Best Sellers"
+      "name": "featured",
+      "friendly_name": "Featured"
     }
   },
   {

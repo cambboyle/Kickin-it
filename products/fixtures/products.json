@@ -14,7 +14,9 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj1-bred.png",
       "image": "aj1-bred.png",
-      "is_featured": false
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false
     }
   },
   {
@@ -32,8 +34,10 @@
       "category": 5,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-beluga.png",
       "image": "yeezy-beluga.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 3,
@@ -50,8 +54,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/af1-low-white.png",
       "image": "af1-low-white.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 4,
@@ -68,8 +74,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-990v5-grey.png",
       "image": "nb-990v5-grey.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 5,
@@ -86,8 +94,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/converse-70-black.png",
       "image": "converse-70-black.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 6,
@@ -104,8 +114,10 @@
       "category": 5,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-700-wave.png",
       "image": "yeezy-700-wave.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 7,
@@ -122,8 +134,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj4-whitecement.png",
       "image": "aj4-whitecement.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 8,
@@ -140,8 +154,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-327-castlerock.png",
       "image": "nb-327-castlerock.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 9,
@@ -158,8 +174,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/vans-oldskool.png",
       "image": "vans-oldskool.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 10,
@@ -176,8 +194,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/sb-dunk-panda.png",
       "image": "sb-dunk-panda.png",
-      "is_featured": false
-    }
+      "is_featured": true,
+      "is_sale": false,
+      "is_new": true
+   }
   },
   {
     "pk": 11,
@@ -194,8 +214,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj3-blackcement.png",
       "image": "aj3-blackcement.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 12,
@@ -212,8 +234,10 @@
       "category": 5,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-500-blush.png",
       "image": "yeezy-500-blush.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 13,
@@ -230,8 +254,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/blazer-mid-vintage.png",
       "image": "blazer-mid-vintage.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 14,
@@ -248,8 +274,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/af1-low-tripleblack.png",
       "image": "af1-low-tripleblack.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 15,
@@ -266,8 +294,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-suede-classic.png",
       "image": "puma-suede-classic.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 16,
@@ -284,8 +314,10 @@
       "category": 5,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-380-alien.png",
       "image": "yeezy-380-alien.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 17,
@@ -302,8 +334,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj5-grape.png",
       "image": "aj5-grape.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 18,
@@ -320,8 +354,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-574-grey.png",
       "image": "nb-574-grey.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 19,
@@ -338,8 +374,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/vans-sk8hi.png",
       "image": "vans-sk8hi.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 20,
@@ -356,7 +394,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj6-infrared.png",
       "image": "aj6-infrared.png",
-      "is_featured": true
+      "is_featured": true,
+      "is_sale": false,
+      "is_new": true 
+      
     }
   },
   {
@@ -374,8 +415,10 @@
       "category": 5,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj12-flugame.png",
       "image": "aj12-flugame.png",
-      "is_featured": false
-    }
+      "is_featured": true,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 22,
@@ -392,8 +435,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/converse-onestar.png",
       "image": "converse-onestar.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 23,
@@ -410,8 +455,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-1500-uk.png",
       "image": "nb-1500-uk.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 24,
@@ -428,8 +475,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/sb-dunk-streethawker.png",
       "image": "sb-dunk-streethawker.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 25,
@@ -446,8 +495,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-rsx-cubic.png",
       "image": "puma-rsx-cubic.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 26,
@@ -464,8 +515,10 @@
       "category": 5,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj11-concord.png",
       "image": "aj11-concord.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 27,
@@ -482,8 +535,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-500-salt.png",
       "image": "yeezy-500-salt.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 28,
@@ -500,8 +555,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-dunk-syracuse.png",
       "image": "nike-dunk-syracuse.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 29,
@@ -518,8 +575,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-997h-navy.png",
       "image": "nb-997h-navy.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 30,
@@ -536,8 +595,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj6-carmine.png",
       "image": "aj6-carmine.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 31,
@@ -554,8 +615,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/air-max-97-silver-bullet.png",
       "image": "air-max-97-silver-bullet.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 32,
@@ -572,8 +635,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-clubc-85.png",
       "image": "reebok-clubc-85.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 33,
@@ -590,8 +655,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-space-hippie-01.png",
       "image": "nike-space-hippie-01.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 34,
@@ -608,8 +675,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-ralph-sampson.png",
       "image": "puma-ralph-sampson.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": true,
+      "is_new": false 
+   }
   },
   {
     "pk": 35,
@@ -626,8 +695,10 @@
       "category": 5,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/yeezy-cinder.png",
       "image": "yeezy-cinder.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 36,
@@ -644,8 +715,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-sacai-blazer.png",
       "image": "nike-sacai-blazer.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 37,
@@ -662,8 +735,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj1-mid-bred.png",
       "image": "aj1-mid-bred.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 38,
@@ -680,8 +755,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-574-navy.png",
       "image": "nb-574-navy.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 39,
@@ -698,8 +775,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-tailwind-79.png",
       "image": "nike-tailwind-79.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 40,
@@ -716,8 +795,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-instapump-fury.png",
       "image": "reebok-instapump-fury.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 41,
@@ -734,8 +815,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-blazer-low-white.png",
       "image": "nike-blazer-low-white.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 42,
@@ -752,8 +835,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-sb-chicago.png",
       "image": "nike-sb-chicago.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 43,
@@ -770,8 +855,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-forum-84-high.png",
       "image": "adidas-forum-84-high.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 44,
@@ -788,8 +875,10 @@
       "category": 5,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/aj4-fire-red.png",
       "image": "aj4-fire-red.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 46,
@@ -807,7 +896,10 @@
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-nmd-r1.png",
       "image": "adidas-nmd-r1.png",
       "is_featured": true
-    }
+,
+      "is_sale": false,
+      "is_new": false 
+  }
   },
   {
     "pk": 47,
@@ -824,8 +916,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-992-grey.png",
       "image": "nb-992-grey.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 48,
@@ -842,8 +936,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-yung1-cloudwhite.png",
       "image": "adidas-yung1-cloudwhite.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 49,
@@ -861,7 +957,10 @@
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-sb-travis-scott.png",
       "image": "nike-sb-travis-scott.png",
       "is_featured": true
-    }
+,
+      "is_sale": false,
+      "is_new": false 
+  }
   },
   {
     "pk": 50,
@@ -878,8 +977,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/converse-chuck-taylor.png",
       "image": "converse-chuck-taylor.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 51,
@@ -896,8 +997,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/air-max-90-bacon.png",
       "image": "air-max-90-bacon.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 52,
@@ -914,8 +1017,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-samba.png",
       "image": "adidas-samba.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 53,
@@ -932,8 +1037,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-rsx.png",
       "image": "puma-rsx.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 54,
@@ -950,8 +1057,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-550-white-red.png",
       "image": "nb-550-white-red.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 55,
@@ -968,8 +1077,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/air-max-1-anniversary.png",
       "image": "air-max-1-anniversary.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 56,
@@ -986,8 +1097,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-question-red-toe.png",
       "image": "reebok-question-red-toe.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 57,
@@ -1004,8 +1117,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-af1-white.png",
       "image": "nike-af1-white.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 58,
@@ -1022,8 +1137,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/lebron-18-la.png",
       "image": "lebron-18-la.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 59,
@@ -1040,8 +1157,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-zx-8000.png",
       "image": "adidas-zx-8000.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 60,
@@ -1058,8 +1177,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/jack-purcell.png",
       "image": "jack-purcell.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 61,
@@ -1076,8 +1197,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-presto-black.png",
       "image": "nike-presto-black.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 62,
@@ -1094,8 +1217,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-clyde.png",
       "image": "puma-clyde.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 63,
@@ -1112,8 +1237,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/air-max-1 false-red.png",
       "image": "air-max-1 false-red.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 64,
@@ -1130,8 +1257,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-550-white-blue.png",
       "image": "nb-550-white-blue.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 65,
@@ -1148,8 +1277,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-continental-80.png",
       "image": "adidas-continental-80.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 66,
@@ -1166,8 +1297,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-blazer-mid.png",
       "image": "nike-blazer-mid.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 67,
@@ -1184,8 +1317,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-superstar.png",
       "image": "adidas-superstar.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 68,
@@ -1202,8 +1337,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-af1-shadow.png",
       "image": "nike-af1-shadow.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 69,
@@ -1220,8 +1357,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-future-runner.png",
       "image": "puma-future-runner.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 70,
@@ -1238,8 +1377,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/asics-gel-lyte-iii.png",
       "image": "asics-gel-lyte-iii.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 71,
@@ -1256,8 +1397,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/hoka-bondi-7.png",
       "image": "hoka-bondi-7.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 72,
@@ -1274,8 +1417,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/on-cloudstratus.png",
       "image": "on-cloudstratus.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 73,
@@ -1292,8 +1437,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/vans-authentic.png",
       "image": "vans-authentic.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 74,
@@ -1310,8 +1457,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-1080v11-black.png",
       "image": "nb-1080v11-black.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 75,
@@ -1328,8 +1477,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-huarache-black.png",
       "image": "nike-huarache-black.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 76,
@@ -1346,8 +1497,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/saucony-kinvara-12.png",
       "image": "saucony-kinvara-12.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 77,
@@ -1364,8 +1517,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-react-infinity-run.png",
       "image": "nike-react-infinity-run.png",
-      "is_featured": false
-    }
+      "is_featured": true,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 78,
@@ -1382,8 +1537,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/hoka-clifton-7.png",
       "image": "hoka-clifton-7.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 79,
@@ -1400,8 +1557,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/on-cloudstratus-black.png",
       "image": "on-cloudstratus-black.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 80,
@@ -1418,8 +1577,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/asics-gel-kayano-27.png",
       "image": "asics-gel-kayano-27.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 81,
@@ -1436,8 +1597,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-dunk-low.png",
       "image": "nike-dunk-low.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 82,
@@ -1454,8 +1617,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/converse-chuck-taylor-black.png",
       "image": "converse-chuck-taylor-black.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 83,
@@ -1472,8 +1637,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-1080v10-grey.png",
       "image": "nb-1080v10-grey.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 84,
@@ -1490,8 +1657,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-nite-jogger.png",
       "image": "adidas-nite-jogger.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 85,
@@ -1508,8 +1677,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-club-c.png",
       "image": "reebok-club-c.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 86,
@@ -1526,8 +1697,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-rs-x-track.png",
       "image": "puma-rs-x-track.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 87,
@@ -1544,8 +1717,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-air-max-270.png",
       "image": "nike-air-max-270.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 88,
@@ -1562,8 +1737,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/hoka-rincon-3.png",
       "image": "hoka-rincon-3.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 89,
@@ -1580,8 +1757,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-nmd-r1.png",
       "image": "adidas-nmd-r1.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 90,
@@ -1598,8 +1777,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/on-cloud.png",
       "image": "on-cloud.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 91,
@@ -1616,8 +1797,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-axis.png",
       "image": "nike-axis.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 92,
@@ -1634,8 +1817,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-instapump-fury.png",
       "image": "reebok-instapump-fury.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 93,
@@ -1652,8 +1837,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-cell-maia.png",
       "image": "puma-cell-maia.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 94,
@@ -1670,8 +1857,10 @@
       "category": 6,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/vans-sk8-hi.png",
       "image": "vans-sk8-hi.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 95,
@@ -1688,8 +1877,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/asics-gel-venture-7.png",
       "image": "asics-gel-venture-7.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 96,
@@ -1706,8 +1897,10 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-react-element-55.png",
       "image": "nike-react-element-55.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 97,
@@ -1724,8 +1917,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-california.png",
       "image": "puma-california.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 98,
@@ -1742,8 +1937,10 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-sb-dunk-high.png",
       "image": "nike-sb-dunk-high.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   },
   {
     "pk": 99,
@@ -1761,7 +1958,10 @@
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-yeezy-boost-350-v2.png",
       "image": "adidas-yeezy-boost-350-v2.png",
       "is_featured": true
-    }
+,
+      "is_sale": false,
+      "is_new": false 
+  }
   },
   {
     "pk": 100,
@@ -1778,7 +1978,9 @@
       "category": 7,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-990v5-grey.png",
       "image": "nb-990v5-grey.png",
-      "is_featured": false
-    }
+      "is_featured": false,
+      "is_sale": false,
+      "is_new": false 
+   }
   }
 ]
