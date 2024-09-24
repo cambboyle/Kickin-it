@@ -22,7 +22,31 @@ body {
     background-color: black !important;
 }
   
-  
+.link-unstyled {
+
+    &,
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:hover {
+        font-style: inherit;
+        color: inherit;
+        background-color: transparent;
+        font-size: inherit;
+        text-decoration: none;
+        font-variant: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        font-family: inherit;
+        border-radius: inherit;
+        border: inherit;
+        outline: inherit;
+        box-shadow: inherit;
+        padding: inherit;
+        vertical-align: inherit;
+    }
+}
 
 /* :root */
 
@@ -188,7 +212,7 @@ body {
     }
 }
 
-/* SN Devices */
+/* SM Devices */
 @media (max-width: 768px) {
     .dropdown-menu {
         max-height: 200px;
@@ -201,5 +225,16 @@ body {
     .dropdown-menu {
         max-height: 200px;
         overflow-y: scroll;
+    }
+}
+
+/* Top Padding */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 164px;
+    }
+
+    .body {
+        height: calc(100vh - 164px);
     }
 }
