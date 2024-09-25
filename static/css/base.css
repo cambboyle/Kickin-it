@@ -118,6 +118,11 @@ body {
 #Email-Button:hover {
     background-color: #2b303a;
 }
+
+a.category-badge > span.badge:hover {
+    background: white !important;
+    color: #212529 !important;
+}
   
 /* Dropdowns */
 
