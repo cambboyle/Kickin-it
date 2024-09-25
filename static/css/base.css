@@ -123,7 +123,19 @@ a.category-badge > span.badge:hover {
     background: white !important;
     color: #212529 !important;
 }
-  
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
 /* Dropdowns */
 
 .dropdown-styles {

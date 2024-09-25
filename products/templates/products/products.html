@@ -16,7 +16,7 @@
             <div class="col text-center mt-3">
                 <h2 class="text-uppercase">Products</h2>
                 {% for c in current_categories %}
-                    <a href="{% url 'products' %}?category={{ c.name }}" class="category-badge text-decoration-none">
+                    <a href="{% url 'products' %}?category={{ c.name }}&gender={{ current_gender|default_if_none:'unisex' }}" class="category-badge text-decoration-none">
                         <span class="p-2 mt-2 badge badge-dark text-light rounded-0 border">{{ c.friendly_name }}</span>
                     </a>
                 {% endfor %}
@@ -33,8 +33,8 @@
                                 <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
                                 <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
                                 <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
-                                <option value="name_desc" {% if current_sorting == 'brand_asc' %}selected{% endif %}>Brand (A-Z)</option>
-                                <option value="name_desc" {% if current_sorting == 'brand_desc' %}selected{% endif %}>Brand (Z-A)</option>
+                                <option value="brand_asc" {% if current_sorting == 'brand_asc' %}selected{% endif %}>Brand (A-Z)</option>
+                                <option value="brand_desc" {% if current_sorting == 'brand_desc' %}selected{% endif %}>Brand (Z-A)</option>
                                 <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
                                 <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
                             </select>
@@ -66,6 +66,7 @@
                                     <p class="mb-0">
                                         {{ product.name }}
                                     </p>
+                                    <p class="mb-0 text-left">{{ product.gender }}</p>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
@@ -88,4 +89,40 @@
             </div>
         </div>
     </div>
+    <div class="btt-button shadow-sm rounded-0 border border-black">
+        <a class="btt-link d-flex h-100">
+            <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+        </a>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript">
+        $('.btt-link').click(function(e) {
+            window.scrollTo(0,0);
+        })
+    </script>
+    <script type="text/javascript">
+        $('#sort-selector').change(function() {
+            var selector = $(this);
+            var currentUrl = new URL(window.location);
+
+            var selectedVal = selector.val();
+            if (selectedVal != 'reset') {
+                var sort = selectedVal.split('_')[0];
+                var direction = selectedVal.split('_')[1];
+
+                currentUrl.searchParams.set('sort', sort);
+                currentUrl.searchParams.set('direction', direction);
+
+                window.location.replace(currentUrl);
+            } else {
+                currentUrl.searchParams.delete('sort');
+                currentUrl.searchParams.delete('direction');
+
+                window.location.replace(currentUrl);
+            }
+        })
+    </script>
 {% endblock %}
