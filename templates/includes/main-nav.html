@@ -9,13 +9,13 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end p-2 border-0 rounded-0" aria-labelledby="all-link">
                 <li class="nav-item mb-2">
-                    <a href="{% url 'products' %}?sort=price" class="dropdown-item text-dark nav-link">By Price</a>
+                    <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item text-dark nav-link">By Price</a>
                 </li>
                 <li class="nav-item mb-2">
-                    <a href="{% url 'products' %}?sort=brand" class="dropdown-item text-dark nav-link">By Brand</a>
+                    <a href="{% url 'products' %}?sort=brand&direction=asc" class="dropdown-item text-dark nav-link">By Brand</a>
                 </li>
                 <li class="nav-item mb-2">
-                    <a href="{% url 'products' %}?sort=category" class="dropdown-item text-dark nav-link">By Category</a>
+                    <a href="{% url 'products' %}?sort=category&direction=desc" class="dropdown-item text-dark nav-link">By Category</a>
                 </li>
                 <li class="nav-item mb-2">
                     <a href="{% url 'products' %}" class="dropdown-item text-dark nav-link">All Products</a>
