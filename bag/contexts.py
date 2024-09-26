@@ -2,6 +2,16 @@ from decimal import Decimal
 from django.conf import settings
 
 def bag_contents(request):
+    """
+    Returns a dictionary containing the current state of the shopping bag.
+
+    Parameters:
+        request (HttpRequest): The current HTTP request.
+
+    Returns:
+        dict: A dictionary containing the bag items, total cost, product count,
+              delivery cost, free delivery delta, free delivery threshold, and grand total.
+    """
 
     bag_items = []
     total = 0

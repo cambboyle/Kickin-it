@@ -5,12 +5,13 @@
 {% endblock %}
 
 {% block content %}
+<!-- Hero Image -->
 <section>
-    <div class="hero-img" style="height: 100dvh; background: url(media/hero-image.jpg) center / cover no-repeat;">
+    <div class="" style="height: 100dvh; background: url(media/hero-image.jpg) center / cover no-repeat;">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-                    <div style="max-width: 350px;position: absolute;">
+                    <div style="max-width: 350px;">
                         <h1 class="text-uppercase fw-bold" style="color: rgb(255,255,255);font-size: 64px;font-family: 'Bebas Neue', sans-serif;">
                             EXPLORE OUR SNEAKER HUB
                         </h1>
@@ -29,30 +30,181 @@
         </div>
     </div>
 </section>
-<section id="top-sellers"></section>
-    <div class="col-sm-8 offset-sm-2 pt-5">
-        <h3>Top sellers this month</h3>
+
+<!-- Featured -->
+<section id="top-sellers">
+    <div class="col-sm-10 offset-sm-1 pt-5 home-title">
+        <h3 class="text-black text-uppercase fw-bold">Featured</h3>
     </div>
-    <hr class="my-1" />
-    <div class="col-sm-8 offset-sm-2 mb-4">
-        <div class="row py-3">
-            <div class="col-sm-12 col-md-6 col-xl-4 p-sm-3 card-xs-padding">
-                <div class="card rounded-0">
-                    <img class="img-fluid card-img-top w-100 d-block" alt="" src="" />
-                    <div class="card-body">
-                        <h4 class="card-title text-dark">sneaker.name</h4>
-                        <a id="sneaker-price-button" class="btn btn-lg me-2 global-buttons" role="button" href="#">sneaker.price</a>
+    <hr class="my-1 text-black"/>
+    <div class="row">
+        <div class="product-container col-10 offset-1">
+            <div class="row">
+                {% for product in products %}
+                    {% if product.is_featured %}
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
+                            <div class="card h-100 border-0 card-text">
+                                {% if product.image %}
+                                <a href="{% url 'product_detail' product.id %}">
+                                    <img src="{{ product.image.url }}" alt="{{ product.name }}" class="card-img-top img-fluid">
+                                </a>
+                                {% else %}
+                                <a href="{% url 'product_detail' product.id %}">
+                                    <img src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}" class="card-img-top img-fluid">
+                                </a>
+                                {% endif %}
+                                <div class="card-body pb-0">
+                                    <p class="mb-0">
+                                        {{ product.name }}
+                                    </p>
+                                    <p class="mb-0 text-left">{{ product.gender }}</p>
+                                </div>
+                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                            {% if product.category %}
+                                                <p class="small mt-1 mb-0">
+                                                    <a href="{% url 'products' %}?category={{ product.category.name }}" class="text-muted">
+                                                        <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                                                    </a>
+                                                </p>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Info hero -->
+<section class="pt-5">
+    <div class="img-fluid mx-0" style=" background: url(media/infopanel-image.jpg) center / cover no-repeat;">
+        <div class="col-sm-8 offset-sm-2">  
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Earth</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>3d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Pakistan</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>4d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+                  <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>California</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>5d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+</section>
+<!-- Brands-->
+<section>
+    <div class="col-sm-10 offset-sm-1 pt-5">
+        <h3 class="text-black text-uppercase fw-bold home-title">Brands</h3>
+    </div>
+    <hr class="my-1 text-black"/>
+    <div class="row">
+        <div class="col-10 offset-1">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="card h-100 border-0 card-text">
+                        <a href="{% url 'products' %}?brand=Adidas">
+                            <img src="{{ MEDIA_URL }}adidas-logo.png" alt="adidas" class="card-img-top img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="card h-100 border-0 card-text">
+                        <a href="{% url 'products' %}?brand=Nike">
+                            <img src="{{ MEDIA_URL }}nike-logo.png" alt="nike" class="card-img-top img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="card h-100 border-0 card-text">
+                        <a href="{% url 'products' %}?brand=Reebok">
+                            <img src="{{ MEDIA_URL }}reebok-logo.png" alt="reebok" class="card-img-top img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="card h-100 border-0 card-text">
+                        <a href="{% url 'products' %}?brand=Converse">
+                            <img src="{{ MEDIA_URL }}converse-logo.png" alt="converse" class="card-img-top img-fluid">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-sm-8 offset-sm-2 mb-4">
-        <div class="container py-4 py-xl-5">
+</section>
+
+<!-- Newsletter -->
+<section>
+    <div class="col-sm-10 offset-sm-1 mb-4 text-black ">
+        <div class="container">
             <div class="row gy-4 gy-md-0">
                 <div class="col-md-6 text-center">
                     <div class="text-center p-xl-5 m-xl-5">
-                        <img class="img-fluid h-100" alt="" src="" width="300" height="300" />
+                        <img class="img h-100" alt="" src="{{ MEDIA_URL }}newsletter-img.jpg" width="300" height="300" />
                     </div>
                 </div>
                 <div class="col-md-6 d-md-flex align-items-md-center">

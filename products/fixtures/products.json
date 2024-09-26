@@ -755,7 +755,7 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-574-navy.png",
       "image": "nb-574-navy.png",
-      "is_featured": false,
+      "is_featured": true,
       "is_sale": false,
       "is_new": false 
    }
