@@ -88,6 +88,8 @@ body {
     color: white !important;
 }
 
+
+
 /* Bootstrap Overrides */
 
 /* Buttons */
@@ -126,6 +128,7 @@ body {
 
 #Email-Button:hover {
     background-color: #2b303a;
+    color: white !important;
 }
 
 a.category-badge > span.badge:hover {
@@ -143,6 +146,19 @@ a.category-badge > span.badge:hover {
 
 .btt-link {
     cursor: pointer;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important;
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
 }
 
 /* Dropdowns */

@@ -43,7 +43,7 @@
                 {% for product in products %}
                     {% if product.is_featured %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
-                            <div class="card h-100 border-0 card-text">
+                            <div class="card h-100 border-0 rounded-0 card-text">
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img src="{{ product.image.url }}" alt="{{ product.name }}" class="card-img-top img-fluid">
@@ -88,64 +88,38 @@
         <div class="col-sm-8 offset-sm-2">  
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
               <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>Earth</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                        <small>3d</small>
-                      </li>
-                    </ul>
+                    <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Shop the latest sneakers</h3>
+                    <a href="" class="text-light text-uppercase">
+                        Shop now 
+                        <i class="fa fa-arrow-right ps-4"></i>
+                    </a>
                   </div>
                 </div>
               </div>
         
               <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
                   <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>Pakistan</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                        <small>4d</small>
-                      </li>
-                    </ul>
+                    <i class="fa fa-heart fa-2x text-danger"></i>
+                    <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                    <a href="" class="text-light text-uppercase">
+                        Shop now 
+                        <i class="fa fa-arrow-right ps-4"></i>
+                    </a>
                   </div>
                 </div>
               </div>
         
               <div class="col">
-                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-0 shadow-lg">
                   <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>California</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                        <small>5d</small>
-                      </li>
-                    </ul>
+                    <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Another longer title belongs here</h3>
+                    <a href="" class="text-light text-uppercase">
+                        Shop now 
+                        <i class="fa fa-arrow-right ps-4"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -153,44 +127,44 @@
           </div>
         </div>
     </div>
-    
 </section>
-<!-- Brands-->
+
+<!-- Brands Links -->
 <section>
     <div class="col-sm-10 offset-sm-1 pt-5">
-        <h3 class="text-black text-uppercase fw-bold home-title">Brands</h3>
+        <h3 class="text-black text-uppercase fw-bold">Top Brands</h3>
     </div>
     <hr class="my-1 text-black"/>
     <div class="row">
-        <div class="col-10 offset-1">
+        <div class="col-10 offset-1 mt-5">
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="card h-100 border-0 card-text">
-                        <a href="{% url 'products' %}?brand=Adidas">
-                            <img src="{{ MEDIA_URL }}adidas-logo.png" alt="adidas" class="card-img-top img-fluid">
-                        </a>
-                    </div>
+                <!-- Nike Logo -->
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                    <a href="{% url 'products' %}?brand=Nike" class="text-decoration-none">
+                        <img class="img-fluid brand-image" src="{{ MEDIA_URL }}nike.png" alt="nike">
+                        <p class="text-black text-uppercase fw-bold">nike</p>
+                    </a>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="card h-100 border-0 card-text">
-                        <a href="{% url 'products' %}?brand=Nike">
-                            <img src="{{ MEDIA_URL }}nike-logo.png" alt="nike" class="card-img-top img-fluid">
-                        </a>
-                    </div>
+                <!-- Adidas Logo -->
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                    <a href="{% url 'products' %}?brand=Adidas" class="text-decoration-none">
+                        <img class="img-fluid brand-image" src="{{ MEDIA_URL }}adidas.png" alt="adidas">
+                        <p class="text-black text-uppercase fw-bold">adidas</p>
+                    </a>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="card h-100 border-0 card-text">
-                        <a href="{% url 'products' %}?brand=Reebok">
-                            <img src="{{ MEDIA_URL }}reebok-logo.png" alt="reebok" class="card-img-top img-fluid">
-                        </a>
-                    </div>
+                <!-- New Balance Logo -->
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                    <a href="{% url 'products' %}?brand=New Balance" class="text-decoration-none">
+                        <img class="img-fluid brand-image" src="{{ MEDIA_URL }}new-balance.png" alt="new-balance">
+                        <p class="text-black text-uppercase fw-bold">new balance</p>
+                    </a>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="card h-100 border-0 card-text">
-                        <a href="{% url 'products' %}?brand=Converse">
-                            <img src="{{ MEDIA_URL }}converse-logo.png" alt="converse" class="card-img-top img-fluid">
-                        </a>
-                    </div>
+                <!-- Vans Logo -->
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                    <a href="{% url 'products' %}?brand=Vans" class="text-decoration-none">
+                        <img class="img-fluid brand-image" src="{{ MEDIA_URL }}vans.png" alt="vans">
+                        <p class="text-black text-uppercase fw-bold">vans</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -210,9 +184,9 @@
                 <div class="col-md-6 d-md-flex align-items-md-center">
                     <div style="max-width: 350px;">
                         <h3 class="text-uppercase fw-bold text-center email-text">get the latest updates and drops with our newsletter</h3>
-                        <div class="input-group text-center">
-                            <input class="form-control" type="email" placeholder="Enter your email here!" />
-                            <button id="Email-Button" class="btn btn-sm fs-6 me-2" type="submit">GET ACCESS</button>
+                        <div class="input-group text-center ">
+                            <input class="form-control rounded-0" type="email" placeholder="Enter your email here!" />
+                            <button id="Email-Button" class="btn btn-sm fs-6 me-2 rounded-0" type="submit">GET ACCESS</button>
                         </div>
                     </div>
                 </div>
