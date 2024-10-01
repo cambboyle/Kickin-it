@@ -1023,26 +1023,6 @@
    }
   },
   {
-    "pk": 53,
-    "model": "products.product",
-    "fields": {
-      "sku": "Puma-RSX-WhiteNavy",
-      "name": "Puma RS-X 'White/Navy'",
-      "description": "The Puma RS-X 'White/Navy' offers bold, chunky design with a combination of mesh and leather for a modern aesthetic.",
-      "colourway": "White/Navy",
-      "gender": "Unisex",
-      "brand": "Puma",
-      "price": 110.00,
-      "release_year": 2021,
-      "category": 4,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-rsx.png",
-      "image": "puma-rsx.png",
-      "is_featured": false,
-      "is_sale": false,
-      "is_new": false 
-   }
-  },
-  {
     "pk": 54,
     "model": "products.product",
     "fields": {
@@ -1103,26 +1083,6 @@
    }
   },
   {
-    "pk": 57,
-    "model": "products.product",
-    "fields": {
-      "sku": "Nike-Air-Force-1-White",
-      "name": "Nike Air Force 1 'White'",
-      "description": "The Nike Air Force 1 'White' is a timeless classic, featuring a clean white leather upper and Air cushioning.",
-      "colourway": "White",
-      "gender": "Unisex",
-      "brand": "Nike",
-      "price": 90.00,
-      "release_year": 2021,
-      "category": 6,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-af1-white.png",
-      "image": "nike-af1-white.png",
-      "is_featured": false,
-      "is_sale": false,
-      "is_new": false 
-   }
-  },
-  {
     "pk": 58,
     "model": "products.product",
     "fields": {
@@ -1155,8 +1115,8 @@
       "price": 120.00,
       "release_year": 2020,
       "category": 4,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-zx-8000.png",
-      "image": "adidas-zx-8000.png",
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-zx-8000-aqua.png",
+      "image": "adidas-zx-8000-aqua.png",
       "is_featured": false,
       "is_sale": false,
       "is_new": false 
@@ -1217,26 +1177,6 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-clyde.png",
       "image": "puma-clyde.png",
-      "is_featured": false,
-      "is_sale": false,
-      "is_new": false 
-   }
-  },
-  {
-    "pk": 63,
-    "model": "products.product",
-    "fields": {
-      "sku": "Nike-Air-Max-1 false-Red",
-      "name": "Nike Air Max 1  false Red'",
-      "description": "The Nike Air Max 1  false Red' features a white leather upper with vibrant red accents and the iconic Air unit.",
-      "colourway": "White/Red",
-      "gender": "Unisex",
-      "brand": "Nike",
-      "price": 140.00,
-      "release_year": 2020,
-      "category": 4,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/air-max-1 false-red.png",
-      "image": "air-max-1 false-red.png",
       "is_featured": false,
       "is_sale": false,
       "is_new": false 
@@ -1337,26 +1277,6 @@
       "category": 4,
       "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-af1-shadow.png",
       "image": "nike-af1-shadow.png",
-      "is_featured": false,
-      "is_sale": false,
-      "is_new": false 
-   }
-  },
-  {
-    "pk": 69,
-    "model": "products.product",
-    "fields": {
-      "sku": "Puma-Future-Runner-BlackWhite",
-      "name": "Puma Future Runner 'Black/White'",
-      "description": "The Puma Future Runner combines sport and style with a sleek design and comfortable fit.",
-      "colourway": "Black/White",
-      "gender": "Unisex",
-      "brand": "Puma",
-      "price": 100.00,
-      "release_year": 2020,
-      "category": 7,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-future-runner.png",
-      "image": "puma-future-runner.png",
       "is_featured": false,
       "is_sale": false,
       "is_new": false 
@@ -1623,26 +1543,6 @@
    }
   },
   {
-    "pk": 83,
-    "model": "products.product",
-    "fields": {
-      "sku": "New-Balance-1080v10-Grey",
-      "name": "New Balance 1080v10 'Grey'",
-      "description": "The New Balance 1080v10 features Fresh Foam cushioning for a plush, responsive ride.",
-      "colourway": "Grey/Black",
-      "gender": "Unisex",
-      "brand": "New Balance",
-      "price": 150.00,
-      "release_year": 2020,
-      "category": 7,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-1080v10-grey.png",
-      "image": "nb-1080v10-grey.png",
-      "is_featured": false,
-      "is_sale": false,
-      "is_new": false 
-   }
-  },
-  {
     "pk": 84,
     "model": "products.product",
     "fields": {
@@ -1755,8 +1655,8 @@
       "price": 140.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-nmd-r1.png",
-      "image": "adidas-nmd-r1.png",
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/adidas-nmd-r1-white.png",
+      "image": "adidas-nmd-r1-white.png",
       "is_featured": false,
       "is_sale": false,
       "is_new": false 
@@ -1795,8 +1695,8 @@
       "price": 85.00,
       "release_year": 2021,
       "category": 7,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-axis.png",
-      "image": "nike-axis.png",
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nike-axis-white.png",
+      "image": "nike-axis-white.png",
       "is_featured": false,
       "is_sale": false,
       "is_new": false 
@@ -1815,48 +1715,8 @@
       "price": 150.00,
       "release_year": 2021,
       "category": 4,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-instapump-fury.png",
-      "image": "reebok-instapump-fury.png",
-      "is_featured": false,
-      "is_sale": false,
-      "is_new": false 
-   }
-  },
-  {
-    "pk": 93,
-    "model": "products.product",
-    "fields": {
-      "sku": "Puma-Cell-Maia-White",
-      "name": "Puma Cell Maia 'White'",
-      "description": "The Puma Cell Maia features a chunky silhouette with a retro design and comfortable cushioning.",
-      "colourway": "White/Neon",
-      "gender": "Women",
-      "brand": "Puma",
-      "price": 110.00,
-      "release_year": 2021,
-      "category": 4,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/puma-cell-maia.png",
-      "image": "puma-cell-maia.png",
-      "is_featured": false,
-      "is_sale": false,
-      "is_new": false 
-   }
-  },
-  {
-    "pk": 94,
-    "model": "products.product",
-    "fields": {
-      "sku": "Vans-Sk8-Hi-BlackWhite",
-      "name": "Vans Sk8-Hi 'Black/White'",
-      "description": "The Vans Sk8-Hi is a classic high-top sneaker featuring a durable upper and signature side stripe.",
-      "colourway": "Black/White",
-      "gender": "Unisex",
-      "brand": "Vans",
-      "price": 75.00,
-      "release_year": 2021,
-      "category": 6,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/vans-sk8-hi.png",
-      "image": "vans-sk8-hi.png",
+      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/reebok-instapump-fury-black.png",
+      "image": "reebok-instapump-fury-black.png",
       "is_featured": false,
       "is_sale": false,
       "is_new": false 
@@ -1962,25 +1822,5 @@
       "is_sale": false,
       "is_new": false 
   }
-  },
-  {
-    "pk": 100,
-    "model": "products.product",
-    "fields": {
-      "sku": "New-Balance-990v5-Grey",
-      "name": "New Balance 990v5 'Grey'",
-      "description": "The New Balance 990v5 is known for its premium materials and classic silhouette, offering exceptional comfort.",
-      "colourway": "Grey",
-      "gender": "Unisex",
-      "brand": "New Balance",
-      "price": 185.00,
-      "release_year": 2021,
-      "category": 7,
-      "image_url": "https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net/media/nb-990v5-grey.png",
-      "image": "nb-990v5-grey.png",
-      "is_featured": false,
-      "is_sale": false,
-      "is_new": false 
-   }
   }
 ]
