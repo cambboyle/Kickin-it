@@ -29,6 +29,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net'
+]
 
 # Application definition
 
@@ -47,6 +50,10 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
+
+    # Third-party apps
+    'crispy_forms',
+    'crispy_bootstrap5',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -56,9 +63,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'kickin_it.urls'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = ('bootstrap5',)
 
 TEMPLATES = [
     {
@@ -77,6 +89,10 @@ TEMPLATES = [
                 'django.template.context_processors.media',
                 'bag.contexts.bag_contents',
                 'kickin_it.context_processors.is_home',
+            ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
             ]
         },
     },
