@@ -1,21 +1,43 @@
-    .stripe-style-input {
-        background-color: white;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-        color: #555;
-        display: block;
-        font-size: 14px;
-        height: 34px;
-        line-height: 1.42857;
-        padding: 6px 12px;
-        transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-        width: 100%;
-        margin-bottom: 15px;
+
+
+    .fieldset-label {
+        position: relative;
+        right: .5rem;
     }
 
-    .stripe-style-input:focus {
-        border-color: #66afe9;
-        outline: 0;
-        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    #payment-form .form-control, #card-element {
+        color: #000;
+        border: 1px solid #000;
     }
+
+    /* Stripe Elements */
+
+    .StripeElement,
+    .stripe-style-input {
+        box-sizing: border-box;
+
+        height: 40px;
+
+        padding: 10px 12px;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        background-color: white;
+        box-shadow: 0 1px 3px 0 #e6ebf1;
+        -webkit-transition: box-shadow 150ms ease;
+        transition: box-shadow 150ms ease;
+    }
+
+    .StripeElement--focus,
+    .stripe-style-input:focus,
+    .stripe-style-input:active {
+        box-shadow: 0 1px 3px 0 #cfd7df;
+    }
+
+    .StripeElement--webkit-autofill {
+        background-color: #fefde5 !important;
+    }
+
+    .stripe-style-input::placeholder {
+        color: #a9b2c3;
+    }
+    
