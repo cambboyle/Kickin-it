@@ -21,7 +21,7 @@
                 <hr>
                 <h2 class="logo-font text-black mb-4">Thank you</h2>
                 <hr>
-                <p>Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong></p>
+                <p class="text-black">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong></p>
             </div>
         </div>
 
@@ -183,7 +183,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-12 col-lg-7 text-end">
                 <a href="{% url 'products' %}?is_sale=true" class="btn btn-outline-black rounded-0 btn-lg">
                     <span class="icon mr-2">

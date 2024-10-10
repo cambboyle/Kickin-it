@@ -89,7 +89,7 @@
                         {{ order_form.street_address1 | as_crispy_field }}
                         {{ order_form.street_address2 | as_crispy_field }}
                         {{ order_form.county | as_crispy_field }}
-                        <div class="form-check form-check-inline float-right mr-0">
+                        <div class="form-check form-check-inline float-right mr-0 text-black">
                             {% if user.is_authenticated %}
                                 <label for="id-save-info" class="form-check-label">Save my information for next time</label>
                                 <input class="form-check-input ml-2 mr-0" type="checkbox" name="save_info" id="id-save-info">
@@ -133,6 +133,13 @@
                 </form>
             </div>
         </div>
+    </div>
+    <div id="loading-overlay">
+        <h1 class="text-light logo-font loading-spinner">
+            <span class="icon">
+                <i class="fas fa-spinner fa-spin"></i>
+            </span>
+        </h1>
     </div>
 {% endblock %}
 
