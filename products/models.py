@@ -20,7 +20,7 @@ class Product(models.Model):
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
-    has_sizes = models.BooleanField(default=False, null=True, blank=True)
+    has_sizes = models.BooleanField(default=True, blank=True)
     colourway = models.CharField(max_length=254, null=True, blank=True)
     gender = models.CharField(max_length=254, null=True, blank=True)
     brand = models.CharField(max_length=254, null=True, blank=True)
