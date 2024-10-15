@@ -79,6 +79,16 @@
                                                 </a>
                                             </p>
                                             {% endif %}
+                                            {% if request.user.is_superuser %}
+                                                <small class="ml-3 pt-2 text-muted">
+                                                    <a href="{% url 'edit_product' product.id %}" class="btn btn-sm btn-outline-black rounded-0">
+                                                        Edit
+                                                    </a>
+                                                    <a href="{% url 'delete_product' product.id %}" class="btn btn-sm btn-outline-black rounded-0 text-danger">
+                                                        Delete
+                                                    </a>
+                                                </small> 
+                                            {% endif %}
                                         </div>
                                     </div>
                                 </div>
