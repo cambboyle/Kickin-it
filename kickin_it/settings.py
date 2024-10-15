@@ -28,7 +28,12 @@ SECRET_KEY = 'django-insecure-*r-pd#&zsrjx-#r*=rc82610%_vs-klk&_=z7a%2k7)_^=**1)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kickin-it.herokuapp.com', 'localhost', 'https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = [
+    'kickin-it.herokuapp.com',
+    'kickin-it-744f171f0d02.herokuapp.com', 
+    'localhost', 
+    'https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net'
+]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net'
