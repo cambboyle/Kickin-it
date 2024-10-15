@@ -22,17 +22,22 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+# FOR DEVELOPMENT ONLY
 
+# SECURITY WARNING: keep the secret key used in production secret!
+# SECRET_KEY = 'django-insecure-*r-pd#&zsrjx-#r*=rc82610%_vs-klk&_=z7a%2k7)_^=**1)'
 # SECURITY WARNING: don't run with debug turned on in production!
+# DEBUG = True
+
+# Uncomment this for deployment
 DEBUG = 'DEVELOPMENT' in os.environ
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 ALLOWED_HOSTS = [
     'kickin-it.herokuapp.com',
     'kickin-it-744f171f0d02.herokuapp.com', 
-    'localhost', 
-    'https://8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net'
+    'localhost',
+    '8000-cambboyle-kickinitv1-rjuiu83853b.ws.codeinstitute-ide.net',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
