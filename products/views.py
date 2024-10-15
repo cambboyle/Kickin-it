@@ -107,8 +107,17 @@ def product_detail(request, product_id):
 
 def add_product(request):
     """ A view to add a new product """
-
-    form = ProductForm()
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Product added!')
+            return redirect(reverse('products'))
+        else:
+            messages.error(request, 'Failed to add product. \
+                Please double check your information.')
+    else:
+        form = ProductForm()
 
     template = 'products/add_product.html'
     context = {
