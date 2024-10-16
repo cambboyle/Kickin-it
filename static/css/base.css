@@ -62,7 +62,7 @@ main {
 
 :root {
     /* fonts */
-    --font-outfit: Outfit;
+    --font-outfit: 'Outfit';
     --font-bebas-neue: 'Bebas Neue', sans-serif;
     /* font sizes */
     --font-size-5xl: 24px;
@@ -99,7 +99,7 @@ main {
 
 .hero-text {
     font-size: 4rem;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif !important;
     color: white;
 }
 
