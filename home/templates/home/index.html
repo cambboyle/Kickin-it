@@ -6,16 +6,14 @@
 
 {% block content %}
 <!-- Hero Image -->
-<div class="container-fluid d-flex align-items-center hero">
+<div class="container-fluid d-flex align-items-center hero pt-5">
     <div class="row w-100">
-        <div
-            class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-            <div style="max-width: 350px;">
-                <h1 class="text-uppercase fw-bold"
-                    style="color: rgb(255,255,255);font-size: 64px;font-family: 'Bebas Neue', sans-serif;">
+        <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+            <div class="mt-5 mx-5" style="max-width: 350px; position: absolute;">
+                <h1 class="text-uppercase fw-bold hero-text">
                     EXPLORE OUR SNEAKER HUB
                 </h1>
-                <p class="my-3" style="color: rgb(255,255,255);font-family: 'Bebas Neue', sans-serif;font-size: 32px;">
+                <p class="my-3 hero-text" style="color: rgb(255,255,255);font-family: 'Bebas Neue', sans-serif;font-size: 32px;">
                     FIND YOUR FEET AND SHOP NOW
                 </p>
                 <a id="shop-now-button" class="btn btn-lg me-2 global-buttons" role="button"
@@ -35,8 +33,8 @@
 <div class="container-fluid">
     <div class="col-sm-10 offset-sm-1 pt-5 home-title" id="top-sellers">
         <h3 class="text-black text-uppercase fw-bold">Featured</h3>
+        <hr class="my-1 text-black" />
     </div>
-    <hr class="my-1 text-black" />
     <div class="row">
         <div class="product-container col-10 offset-1">
             <div class="row">
@@ -87,37 +85,38 @@
 <!-- Info hero -->
 <div class="container-fluid">
     <div class="img-fluid mx-2 news-hero pt-5">
+
         <div class="col-sm-8 offset-sm-2">
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="col">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Shop the latest sneakers</h3>
-                            <a href="" class="text-light text-uppercase">
+                        <div class="card-content d-flex flex-column align-items-stretch p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="mb-4 lh-1 fw-bold text-center">SHOP</h3>
+                            <a href="" class="text-decoration-none card-font text-light text-uppercase d-inline-flex align-items-center justify-content-end flex-grow-1">
                                 Shop now
-                                <i class="fa fa-arrow-right ps-4"></i>
+                                <i class="fa fa-arrow-right ps-3"></i>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card card-cover overflow-hidden text-bg-dark rounded-0 shadow-lg">
-                        <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Get the latest news</h3>
-                            <a href="" class="text-light text-uppercase">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
+                        <div class="card-content d-flex flex-column align-items-stretch p-5 pb-3 text-shadow-1">
+                            <h3 class="mb-4 lh-1 fw-bold text-center">NEWS</h3>
+                            <a href="" class="text-decoration-none card-font text-light text-uppercase d-inline-flex align-items-center justify-content-end flex-grow-1">
                                 Shop now
-                                <i class="fa fa-arrow-right ps-4"></i>
+                                <i class="fa fa-arrow-right ps-3"></i>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card card-cover overflow-hidden text-bg-dark rounded-0 shadow-lg">
-                        <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Another longer title belongs here</h3>
-                            <a href="" class="text-light text-uppercase">
-                                Shop now
-                                <i class="fa fa-arrow-right ps-4"></i>
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
+                        <div class="card-content d-flex flex-column align-items-stretch p-5 pb-3 text-shadow-1">
+                            <h3 class="mb-4 lh-1 fw-bold text-center">FAQ</h3>
+                            <a href="" class="text-decoration-none card-font text-light text-uppercase d-inline-flex align-items-center justify-content-end flex-grow-1">
+                                CLICK HERE
+                                <i class="fa fa-arrow-right ps-3"></i>
                             </a>
                         </div>
                     </div>
@@ -132,31 +131,32 @@
 <div class="container-fluid">
     <div class="col-sm-10 offset-sm-1 pt-5">
         <h3 class="text-black text-uppercase fw-bold">Top Brands</h3>
+        <hr class="my-1 text-black" />
     </div>
-    <hr class="my-1 text-black" />
+    
     <div class="col-sm-12">
         <div class="row">
             <div class="col-10 offset-1 mt-5">
-                <div class="row">
-                    <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                <div class="row pb-5">
+                    <div class=" col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2 text-center">
                         <a href="{% url 'products' %}?brand=Nike" class="text-decoration-none">
                             <img class="img-fluid brand-image" src="{{ MEDIA_URL }}nike.png" alt="nike">
                             <p class="text-black text-uppercase fw-bold">nike</p>
                         </a>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2 text-center">
                         <a href="{% url 'products' %}?brand=Adidas" class="text-decoration-none">
                             <img class="img-fluid brand-image" src="{{ MEDIA_URL }}adidas.png" alt="adidas">
                             <p class="text-black text-uppercase fw-bold">adidas</p>
                         </a>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2 text-center">
                         <a href="{% url 'products' %}?brand=New Balance" class="text-decoration-none">
                             <img class="img-fluid brand-image" src="{{ MEDIA_URL }}new-balance.png" alt="new-balance">
                             <p class="text-black text-uppercase fw-bold">new balance</p>
                         </a>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2 text-center">
                         <a href="{% url 'products' %}?brand=Vans" class="text-decoration-none">
                             <img class="img-fluid brand-image" src="{{ MEDIA_URL }}vans.png" alt="vans">
                             <p class="text-black text-uppercase fw-bold">vans</p>
@@ -171,14 +171,15 @@
 
 <!-- Newsletter -->
 <div class="col-sm-10 offset-sm-1 mb-4 text-black ">
-    <div class="container">
+    <div class="container-fluid">
+        <hr class="my-1 text-black" />
         <div class="row gy-4 gy-md-0">
             <div class="col-md-6 text-center">
-                <div class="text-center p-xl-5 m-xl-5">
-                    <img class="img h-100" alt="" src="{{ MEDIA_URL }}newsletter-img.jpg" width="300" height="300" />
+                <div class="text-center p-xl-5 m-xl-5 pt-5">
+                    <img class="img h-100 shadow-1" alt="" src="{{ MEDIA_URL }}newsletter-img.jpg" width="300" height="300" />
                 </div>
             </div>
-            <div class="col-md-6 d-md-flex align-items-md-center">
+            <div class="col-md-6 d-md-flex align-items-md-center justify-content-md-between d-flex justify-content-center">
                 <div style="max-width: 350px;">
                     <h3 class="text-uppercase fw-bold text-center email-text">get the latest updates and drops with our
                         newsletter</h3>
@@ -192,4 +193,6 @@
         </div>
     </div>
 </div>
+
+
 {% endblock %}

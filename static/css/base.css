@@ -6,7 +6,7 @@ html, body {
 
 body {
     font-family: 'Outfit', sans-serif;
-     /* height: calc(100vh - 164px); */
+    height: calc(100vh - 164px);
     display: flex;
     flex-direction: column;
     background-color: #ffffff ;
@@ -97,7 +97,11 @@ main {
     color: white !important;
 }
 
-
+.hero-text {
+    font-size: 4rem;
+    font-family: var(--font-bebas-neue);
+    color: white;
+}
 
 /* Bootstrap Overrides */
 
@@ -119,6 +123,8 @@ main {
   
  #shop-now-button {
     background-color: #ffbebe;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
 }
   
 #new-in-button:hover {
@@ -129,6 +135,8 @@ main {
   
 #new-in-button {
     background-color: white;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
 }
 
 #Email-Button {
@@ -207,7 +215,29 @@ a.category-badge > span.badge:hover {
 .card-text {
     color: black;
 }
-  
+
+.card-content {
+    height: 100%; /* Ensures the content fills the card's height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content h3 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-content a {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.card-font {
+    font-size: 1rem;
+}
+
 /* Products */
 
 .overlay {
@@ -380,9 +410,21 @@ a.category-badge > span.badge:hover {
   .container {
     max-width: 80%;
   }
+
+  .card-content a {
+    justify-content: flex-end;
+    width: 100%;
+  }
 }
 
-/* L Devices */
+@media (max-width: 1199.98px) {
+    .card-content a {
+        font-size: 0.875rem;
+        justify-content: flex-start;
+    }
+}
+
+/* LG Devices */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -406,9 +448,14 @@ a.category-badge > span.badge:hover {
     }
 }
 
+@media (min-width: 991px) and (max-width: 1199.98px) {
+    .card-font {
+        font-size: 0.5rem;
+    }
+}
 
 /* M Devices */
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
     .dropdown-menu {
         max-height: 200px;
         overflow-y: scroll;
@@ -416,6 +463,11 @@ a.category-badge > span.badge:hover {
     }
     .dropdown-menu.show {
         display: block;
+    }
+
+    .card-font {
+        font-size: 0.875rem;
+        padding: 0;
     }
 }
 
@@ -428,7 +480,7 @@ a.category-badge > span.badge:hover {
 }
 
 /* XS Devices */
-@media (max-width: 600px) {
+@media (max-width: 575.98px) {
     .dropdown-menu {
         max-height: 200px;
         overflow-y: scroll;
@@ -438,10 +490,20 @@ a.category-badge > span.badge:hover {
         text-align: center;
         font-size: 25px;
     }
+
+    .hero-text {
+        font-size: 2.5rem;
+    }
+
+    #shop-now-button, #new-in-button {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem
+    }
+
 }
 
 /* Top Padding */
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
     .header-container {
         padding-top: 164px;
     }
@@ -449,4 +511,6 @@ a.category-badge > span.badge:hover {
     .body {
         height: calc(100vh - 164px);
     }
+
+    
 }
