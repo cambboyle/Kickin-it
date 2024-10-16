@@ -44,8 +44,9 @@
   <link rel="shortcut icon" href="{{ MEDIA_URL }}favicon.png" type="image/x-icon">
 </head>
 <body class="bg-light">
-    <header class="fixed-top container-fluid px-lg-0 bg-light">
-      <div id="topnav" class="row pt-lg-4 px-md-5 d-none d-lg-flex">
+  <main> 
+    <div class="fixed-top container-fluid px-lg-0 bg-light">
+      <div id="topnav" class="row pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0"></div>
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 d-flex justify-content-center">
           <a class="nav-link main-logo-link" href="{% url 'home' %}">
@@ -117,6 +118,7 @@
           </ul>
         </div>
       </div>
+      <!-- Navbar -->
       <div class="row pt-2">
         <div class="col-sm-8 offset-sm-2">
           <nav class="navbar navbar-expand-lg">
@@ -136,7 +138,8 @@
           <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}</h4>
         </div>
       </div>
-    </header>
+    </div>
+
 
     {% if messages %}
     <div class="message-container">
@@ -155,13 +158,14 @@
       {% endfor %}
     </div>
     {% endif %}
-
+  
     {% block page_header %}
     {% endblock %}
 
     {% block content %}
     {% endblock %}
 
+  </main>
     {% block postloadjs %}
     <!-- Add dropdown click when screen is MD or lower -->
     <script>

@@ -1,17 +1,19 @@
 /* General styles */
 
-html {
+html, body {
     height: 100%;
 }
 
 body {
     font-family: 'Outfit', sans-serif;
-    height: calc(100vh - 164px);
-    color: white;
-    margin: 0;
-    line-height: normal;
+     /* height: calc(100vh - 164px); */
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff ;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+main {
+    flex: 1;
 }
 
 .img-crop {
@@ -50,7 +52,7 @@ body {
 }
 
 .hero {
-    background: url(https://kickin-it.s3.eu-north-1.amazonaws.com/media/hero-image.jpg) center / cover no-repeat;
+    background: url(https://kickin-it.s3.eu-north-1.amazonaws.com/media/hero-image.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100dvh;
 }

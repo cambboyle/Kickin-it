@@ -6,189 +6,190 @@
 
 {% block content %}
 <!-- Hero Image -->
-<section>
-    <div class="hero">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-                    <div style="max-width: 350px;">
-                        <h1 class="text-uppercase fw-bold" style="color: rgb(255,255,255);font-size: 64px;font-family: 'Bebas Neue', sans-serif;">
-                            EXPLORE OUR SNEAKER HUB
-                        </h1>
-                        <p class="my-3" style="color: rgb(255,255,255);font-family: 'Bebas Neue', sans-serif;font-size: 32px;">
-                            FIND YOUR FEET AND SHOP NOW
-                        </p>
-                        <a id="shop-now-button" class="btn btn-lg me-2 global-buttons" role="button" href="{% url 'products' %}">
-                            SHOP NOW
-                        </a>
-                        <a id="new-in-button" class="btn btn-lg me-2 global-buttons" role="button" href="#">
-                            NEW IN
-                        </a>
-                    </div>
-                </div>
+<div class="container-fluid d-flex align-items-center hero">
+    <div class="row w-100">
+        <div
+            class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+            <div style="max-width: 350px;">
+                <h1 class="text-uppercase fw-bold"
+                    style="color: rgb(255,255,255);font-size: 64px;font-family: 'Bebas Neue', sans-serif;">
+                    EXPLORE OUR SNEAKER HUB
+                </h1>
+                <p class="my-3" style="color: rgb(255,255,255);font-family: 'Bebas Neue', sans-serif;font-size: 32px;">
+                    FIND YOUR FEET AND SHOP NOW
+                </p>
+                <a id="shop-now-button" class="btn btn-lg me-2 global-buttons" role="button"
+                    href="{% url 'products' %}">
+                    SHOP NOW
+                </a>
+                <a id="new-in-button" class="btn btn-lg me-2 global-buttons" role="button"
+                    href="{% url 'products' %}?is_new=true">
+                    NEW IN
+                </a>
             </div>
         </div>
     </div>
-</section>
+</div> 
 
 <!-- Featured -->
-<section id="top-sellers">
-    <div class="col-sm-10 offset-sm-1 pt-5 home-title">
+<div class="container-fluid">
+    <div class="col-sm-10 offset-sm-1 pt-5 home-title" id="top-sellers">
         <h3 class="text-black text-uppercase fw-bold">Featured</h3>
     </div>
-    <hr class="my-1 text-black"/>
+    <hr class="my-1 text-black" />
     <div class="row">
         <div class="product-container col-10 offset-1">
             <div class="row">
                 {% for product in products %}
-                    {% if product.is_featured %}
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
-                            <div class="card h-100 border-0 rounded-0 card-text">
-                                {% if product.image %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img src="{{ product.image.url }}" alt="{{ product.name }}" class="card-img-top img-fluid">
-                                </a>
-                                {% else %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}" class="card-img-top img-fluid">
-                                </a>
-                                {% endif %}
-                                <div class="card-body pb-0">
-                                    <p class="mb-0">
-                                        {{ product.name }}
+                {% if product.is_featured %}
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="card h-100 border-0 rounded-0 card-text">
+                        {% if product.image %}
+                        <a href="{% url 'product_detail' product.id %}">
+                            <img src="{{ product.image.url }}" alt="{{ product.name }}" class="card-img-top img-fluid">
+                        </a>
+                        {% else %}
+                        <a href="{% url 'product_detail' product.id %}">
+                            <img src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}" class="card-img-top img-fluid">
+                        </a>
+                        {% endif %}
+                        <div class="card-body pb-0">
+                            <p class="mb-0">
+                                {{ product.name }}
+                            </p>
+                            <p class="mb-0 text-left">{{ product.gender }}</p>
+                        </div>
+                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                    {% if product.category %}
+                                    <p class="small mt-1 mb-0">
+                                        <a href="{% url 'products' %}?category={{ product.category.name }}"
+                                            class="text-muted">
+                                            <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                                        </a>
                                     </p>
-                                    <p class="mb-0 text-left">{{ product.gender }}</p>
-                                </div>
-                                <div class="card-footer bg-white pt-0 border-0 text-left">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                                            {% if product.category %}
-                                                <p class="small mt-1 mb-0">
-                                                    <a href="{% url 'products' %}?category={{ product.category.name }}" class="text-muted">
-                                                        <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
-                                                    </a>
-                                                </p>
-                                            {% endif %}
-                                        </div>
-                                    </div>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
-                    {% endif %}
+                    </div>
+                </div>
+                {% endif %}
                 {% endfor %}
             </div>
         </div>
     </div>
-</section>
+</div>
+
 
 <!-- Info hero -->
-<section class="pt-5">
-    <div class="img-fluid mx-0 news-hero">
-        <div class="col-sm-8 offset-sm-2">  
+<div class="container-fluid">
+    <div class="img-fluid mx-2 news-hero pt-5">
+        <div class="col-sm-8 offset-sm-2">
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Shop the latest sneakers</h3>
-                    <a href="" class="text-light text-uppercase">
-                        Shop now 
-                        <i class="fa fa-arrow-right ps-4"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>        
-              <div class="col">
-                <div class="card card-cover overflow-hidden text-bg-dark rounded-0 shadow-lg">
-                  <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Get the latest news</h3>
-                    <a href="" class="text-light text-uppercase">
-                        Shop now 
-                        <i class="fa fa-arrow-right ps-4"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card card-cover overflow-hidden text-bg-dark rounded-0 shadow-lg">
-                  <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Another longer title belongs here</h3>
-                    <a href="" class="text-light text-uppercase">
-                        Shop now 
-                        <i class="fa fa-arrow-right ps-4"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-</section>
-
-<!-- Brands Links -->
-<section>
-    <div class="col-sm-10 offset-sm-1 pt-5">
-        <h3 class="text-black text-uppercase fw-bold">Top Brands</h3>
-    </div>
-    <hr class="my-1 text-black"/>
-    <div class="row">
-        <div class="col-10 offset-1 mt-5">
-            <div class="row">
-                <!-- Nike Logo -->
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
-                    <a href="{% url 'products' %}?brand=Nike" class="text-decoration-none">
-                        <img class="img-fluid brand-image" src="{{ MEDIA_URL }}nike.png" alt="nike">
-                        <p class="text-black text-uppercase fw-bold">nike</p>
-                    </a>
-                </div>
-                <!-- Adidas Logo -->
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
-                    <a href="{% url 'products' %}?brand=Adidas" class="text-decoration-none">
-                        <img class="img-fluid brand-image" src="{{ MEDIA_URL }}adidas.png" alt="adidas">
-                        <p class="text-black text-uppercase fw-bold">adidas</p>
-                    </a>
-                </div>
-                <!-- New Balance Logo -->
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
-                    <a href="{% url 'products' %}?brand=New Balance" class="text-decoration-none">
-                        <img class="img-fluid brand-image" src="{{ MEDIA_URL }}new-balance.png" alt="new-balance">
-                        <p class="text-black text-uppercase fw-bold">new balance</p>
-                    </a>
-                </div>
-                <!-- Vans Logo -->
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
-                    <a href="{% url 'products' %}?brand=Vans" class="text-decoration-none">
-                        <img class="img-fluid brand-image" src="{{ MEDIA_URL }}vans.png" alt="vans">
-                        <p class="text-black text-uppercase fw-bold">vans</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Newsletter -->
-<section>
-    <div class="col-sm-10 offset-sm-1 mb-4 text-black ">
-        <div class="container">
-            <div class="row gy-4 gy-md-0">
-                <div class="col-md-6 text-center">
-                    <div class="text-center p-xl-5 m-xl-5">
-                        <img class="img h-100" alt="" src="{{ MEDIA_URL }}newsletter-img.jpg" width="300" height="300" />
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Shop the latest sneakers</h3>
+                            <a href="" class="text-light text-uppercase">
+                                Shop now
+                                <i class="fa fa-arrow-right ps-4"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-md-flex align-items-md-center">
-                    <div style="max-width: 350px;">
-                        <h3 class="text-uppercase fw-bold text-center email-text">get the latest updates and drops with our newsletter</h3>
-                        <div class="input-group text-center ">
-                            <input class="form-control rounded-0" type="email" placeholder="Enter your email here!" />
-                            <button id="Email-Button" class="btn btn-sm fs-6 me-2 rounded-0" type="submit">GET ACCESS</button>
+                <div class="col">
+                    <div class="card card-cover overflow-hidden text-bg-dark rounded-0 shadow-lg">
+                        <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Get the latest news</h3>
+                            <a href="" class="text-light text-uppercase">
+                                Shop now
+                                <i class="fa fa-arrow-right ps-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-cover overflow-hidden text-bg-dark rounded-0 shadow-lg">
+                        <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Another longer title belongs here</h3>
+                            <a href="" class="text-light text-uppercase">
+                                Shop now
+                                <i class="fa fa-arrow-right ps-4"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
+
+
+<!-- Brands Links -->
+<div class="container-fluid">
+    <div class="col-sm-10 offset-sm-1 pt-5">
+        <h3 class="text-black text-uppercase fw-bold">Top Brands</h3>
+    </div>
+    <hr class="my-1 text-black" />
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-10 offset-1 mt-5">
+                <div class="row">
+                    <div class=" col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                        <a href="{% url 'products' %}?brand=Nike" class="text-decoration-none">
+                            <img class="img-fluid brand-image" src="{{ MEDIA_URL }}nike.png" alt="nike">
+                            <p class="text-black text-uppercase fw-bold">nike</p>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                        <a href="{% url 'products' %}?brand=Adidas" class="text-decoration-none">
+                            <img class="img-fluid brand-image" src="{{ MEDIA_URL }}adidas.png" alt="adidas">
+                            <p class="text-black text-uppercase fw-bold">adidas</p>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                        <a href="{% url 'products' %}?brand=New Balance" class="text-decoration-none">
+                            <img class="img-fluid brand-image" src="{{ MEDIA_URL }}new-balance.png" alt="new-balance">
+                            <p class="text-black text-uppercase fw-bold">new balance</p>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 text-center">
+                        <a href="{% url 'products' %}?brand=Vans" class="text-decoration-none">
+                            <img class="img-fluid brand-image" src="{{ MEDIA_URL }}vans.png" alt="vans">
+                            <p class="text-black text-uppercase fw-bold">vans</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Newsletter -->
+<div class="col-sm-10 offset-sm-1 mb-4 text-black ">
+    <div class="container">
+        <div class="row gy-4 gy-md-0">
+            <div class="col-md-6 text-center">
+                <div class="text-center p-xl-5 m-xl-5">
+                    <img class="img h-100" alt="" src="{{ MEDIA_URL }}newsletter-img.jpg" width="300" height="300" />
+                </div>
+            </div>
+            <div class="col-md-6 d-md-flex align-items-md-center">
+                <div style="max-width: 350px;">
+                    <h3 class="text-uppercase fw-bold text-center email-text">get the latest updates and drops with our
+                        newsletter</h3>
+                    <div class="input-group text-center ">
+                        <input class="form-control rounded-0" type="email" placeholder="Enter your email here!" />
+                        <button id="Email-Button" class="btn btn-sm fs-6 me-2 rounded-0" type="submit">GET
+                            ACCESS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
