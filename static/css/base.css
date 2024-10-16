@@ -49,11 +49,12 @@ body {
     }
 }
 
-/* .hero {
-    background: url(media/hero-image.jpg) center / cover no-repeat;
+ .hero {
+    background: url(https://https://kickin-it.s3.eu-north-1.amazonaws.com/media/hero-image.jpg) center / cover no-repeat;
     background-size: cover;
     height: 100dvh
-} */
+}
+
 
 /* :root */
 
