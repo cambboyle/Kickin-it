@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container text-black">
+        <h1>Your Wishlist</h1>
+        <ul>
+            {% for item in wishlist_items %}
+            <li>
+                {{ item.product_name }} - {{ item.description }}
+                <form action="{% url 'remove_wishlist' item.product_name %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit">Remove</button>
+                </form>
+            </li>
+            {% empty %}
+            <li>Your wishlist is empty.</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
