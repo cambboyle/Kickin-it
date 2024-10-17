@@ -45,6 +45,19 @@
       {% endif %}
     </div>
   </li>
+  <!-- Wishlist -->
+  {% if request.user.is_authenticated %}
+  <li class="list-inline-item flex-fill">
+    <a class="text-black nav-link" href="{% url 'wishlist' %}">
+      <div class="text-center">
+        <div><i class="fas fa-heart fa-lg"></i></div>
+        <p class="my-0">
+          Wishlist
+        </p>
+      </div>
+    </a>
+  </li>
+  {% endif %}
   <!-- Cart -->
   <li class="list-inline-item">
     <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"

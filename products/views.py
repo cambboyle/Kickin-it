@@ -3,7 +3,10 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from wishlist.models import Wishlist
+from profiles.models import UserProfile
 from .models import Product, Category
+
 from .forms import ProductForm
 
 # Create your views here.
@@ -95,12 +98,25 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
-
+    """A view to show individual product details"""
     product = get_object_or_404(Product, pk=product_id)
+
+    in_wishlist = False
+
+    if request.user.is_authenticated:
+        try:
+            user_profile = UserProfile.objects.get(user=request.user)
+            # Check if the product is already in the user's wishlist
+            in_wishlist = Wishlist.objects.filter(
+                    user_profile=user_profile,
+                    product=product).exists()
+        except UserProfile.DoesNotExist:
+            # Handle the case where UserProfile doesn't exist for the user
+            pass
 
     context = {
         'product': product,
+        'in_wishlist': in_wishlist,
     }
 
     return render(request, 'products/product_detail.html', context)
