@@ -8,7 +8,7 @@ def view_wishlist(request):
     """ A view to show the user's wishlist """
     wishlist_items = Wishlist.objects.filter(user=request.user)
     return render(
-        request, 
+        request,
         'wishlist/wishlist.html', 
         {'wishlist_items': wishlist_items}
     )
