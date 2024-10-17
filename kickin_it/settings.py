@@ -25,13 +25,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # FOR DEVELOPMENT ONLY
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*r-pd#&zsrjx-#r*=rc82610%_vs-klk&_=z7a%2k7)_^=**1)'
+# SECRET_KEY = 'django-insecure-*r-pd#&zsrjx-#r*=rc82610%_vs-klk&_=z7a%2k7)_^=**1)'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
 # Uncomment this for deployment
-# DEBUG = 'DEVELOPMENT' in os.environ
-# SECRET_KEY = os.environ.get('SECRET_KEY', '')
+DEBUG = 'DEVELOPMENT' in os.environ
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 ALLOWED_HOSTS = [
     'kickin-it.herokuapp.com',

@@ -9,7 +9,7 @@ def view_wishlist(request):
     wishlist_items = Wishlist.objects.filter(user=request.user)
     return render(
         request, 
-        'wishlist/view_wishlist.html', 
+        'wishlist/wishlist.html', 
         {'wishlist_items': wishlist_items}
     )
 
