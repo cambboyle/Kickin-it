@@ -181,33 +181,34 @@
     {% endblock %}
 
   </main>
+
 <!-- Bootstrap 5.3 Footer -->
-<div class="container-fluid">
+<div class="container-fluid bg-dark text-light">
   <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
-          <a href="{% url 'home' %}" class="nav-link px-2 text-black">
+          <a href="{% url 'home' %}" class="nav-link px-2 text-light">
             Home
           </a>
         </li>
         <li class="nav-item">
-          <a href="" class="nav-link px-2 text-black">
+          <a href="" class="nav-link px-2 text-light">
             FAQ
           </a>
         </li>
         {% if request.user.is_authenticated %}
           <li class="nav-item">
-            <a href="{% url 'profile' %}" class="nav-link px-2 text-black">My Account</a>
+            <a href="{% url 'profile' %}" class="nav-link px-2 text-light">My Account</a>
           </li>
           <li class="nav-item">
-            <a href="{% url 'account_logout' %}" class="nav-link px-2 text-black">Logout</a>
+            <a href="{% url 'account_logout' %}" class="nav-link px-2 text-light">Logout</a>
           </li>
         {% else %}
           <li class="nav-item">
-            <a href="{% url 'account_signup' %}" class="nav-link px-2 text-black">Register</a>
+            <a href="{% url 'account_signup' %}" class="nav-link px-2 text-light">Register</a>
           </li>
           <li class="nav-item">
-            <a href="{% url 'account_login' %}" class="nav-link px-2 text-black">Login</a>
+            <a href="{% url 'account_login' %}" class="nav-link px-2 text-light">Login</a>
           </li>
         {% endif %}
       </ul>

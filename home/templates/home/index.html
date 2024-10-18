@@ -172,7 +172,7 @@
 <!-- Newsletter -->
 <div class="col-sm-10 offset-sm-1 mb-4 text-black ">
     <div class="container-fluid">
-        <hr class="my-1 text-black" />
+        <hr class="my-1 text-black"/>
         <div class="row gy-4 gy-md-0">
             <div class="col-md-6 text-center">
                 <div class="text-center p-xl-5 m-xl-5 pt-5">
@@ -183,11 +183,14 @@
                 <div style="max-width: 350px;">
                     <h3 class="text-uppercase fw-bold text-center email-text">get the latest updates and drops with our
                         newsletter</h3>
-                    <div class="input-group text-center ">
-                        <input class="form-control rounded-0" type="email" placeholder="Enter your email here!" />
-                        <button id="Email-Button" class="btn btn-sm fs-6 me-2 rounded-0" type="submit">GET
-                            ACCESS</button>
-                    </div>
+                    <form method="POST" action="{% url 'subscribe_newsletter' %}">
+                        {% csrf_token %}
+                        <div class="input-group text-center ">
+                            <input class="form-control rounded-0" name="email" type="email" placeholder="Enter your email here!" required/>
+                            <button id="Email-Button" class="btn btn-sm fs-6 me-2 rounded-0" type="submit">GET
+                                ACCESS</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
