@@ -12,4 +12,4 @@ Kickin' It Team
 
 
 Unsubscribe from the newsletter at any time by clicking the link below:
-https://kickin-it-744f171f0d02.herokuapp.com/{% url 'newsletter_unsubscribe' subscriber_email %}
+https://kickin-it-744f171f0d02.herokuapp.com{% url 'newsletter_unsubscribe' subscriber_email %}
