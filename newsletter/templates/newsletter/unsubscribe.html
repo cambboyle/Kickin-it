@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <h2 class="fw-bold text-uppercase text-center">Unsubscribe Confirmation</h2>
+            <div class="col-md-8 text-center">
+                <h4 class="my-3">Are you sure?</h4>
+                <form method="post" class="mt-4">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger mb-2">Confirm</button>
+                    <a href="{% url 'home' %}" class="btn btn-secondary mb-2">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

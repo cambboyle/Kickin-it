@@ -1,0 +1,15 @@
+Hello from Kickin' It!
+
+Thank you for subscribing to the Kickin' It newsletter.
+
+This newsletter is a great way to stay up to date with:
+ -  the latest deals
+ -  featured products and collections.
+ -  news and updates from our team.
+
+
+Kickin' It Team
+
+
+Unsubscribe from the newsletter at any time by clicking the link below:
+{{ protocol }}://{{ domain }}{% url 'newsletter_unsubscribe' subscriber_email %}

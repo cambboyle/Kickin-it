@@ -183,7 +183,7 @@
                 <div style="max-width: 350px;">
                     <h3 class="text-uppercase fw-bold text-center email-text">get the latest updates and drops with our
                         newsletter</h3>
-                    <form method="POST" action="{% url 'subscribe_newsletter' %}">
+                    <form method="POST" action="{% url 'newsletter_subscribe' %}">
                         {% csrf_token %}
                         <div class="input-group text-center ">
                             <input class="form-control rounded-0" name="email" type="email" placeholder="Enter your email here!" required/>
@@ -195,7 +195,4 @@
             </div>
         </div>
     </div>
-</div>
-
-
 {% endblock %}
