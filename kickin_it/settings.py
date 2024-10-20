@@ -64,6 +64,7 @@ INSTALLED_APPS = [
     'profiles',
     'wishlist',
     'newsletter',
+    'faq',
 
     # Third-party apps
     'crispy_forms',
@@ -224,6 +225,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 FREE_DELIVERY_THRESHOLD = 150
 STANDARD_DELIVERY_PERCENTAGE = 10
+UNIVERSAL_DISCOUNT_PERCENTAGE = 20.00
 
 # Stripe
 STRIPE_CURRENCY = 'usd'

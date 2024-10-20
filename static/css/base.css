@@ -2,18 +2,25 @@
 
 html, body {
     height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
     font-family: 'Outfit', sans-serif;
-    height: calc(100vh - 164px);
-    display: flex;
-    flex-direction: column;
+     /* height: calc(100vh - 164px); */
     background-color: #ffffff ;
 }
 
 main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    flex-shrink: 0;
 }
 
 .img-crop {
