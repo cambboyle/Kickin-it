@@ -14,7 +14,7 @@
     <div class="container-fluid text-black">
         <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="text-uppercase">All Products</h2>
+                <h2 class="logo-font">All Products</h2>
                 {% for c in current_categories %}
                     <a href="{% url 'products' %}?category={{ c.name }}&gender={{ current_gender|default_if_none:'unisex' }}" class="category-badge text-decoration-none">
                         <span class="p-2 mt-2 badge text-black rounded-0 border">{{ c.friendly_name }}</span>
@@ -22,11 +22,10 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
-                    <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end"></div>
-                        <div class="sort-select-wrapper w-50">
+                    <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
+                        <div class="sort-select-wrapper w-50 d-flex justify-content-center justify-content-md-end">
                             <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
                                 <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
                                 <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
@@ -41,9 +40,9 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 order-md-first">
-                        <p class="text-muted mt-3 text-center text-md-left">
+                        <p class="text-muted mt-3 text-center text-md-start">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
-                                <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+                                <span class="small"><a href="{% url 'products' %}" class="text-black">Products Home</a> | </span>
                             {% endif %}
                             {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                         </p>
@@ -64,9 +63,12 @@
                                 {% endif %}
                                 <div class="card-body pb-0">
                                     <p class="mb-0">
-                                        {{ product.name }}
+                                        {{ product.name }} 
+                                        {% if product.is_new %}
+                                            | <span class="border-1 text-danger font-weight-bold text-uppercase">New In</span>
+                                        {% endif %}
                                     </p>
-                                    <p class="mb-0 text-left">{{ product.gender }}</p>
+                                    <p class="mb-0 text-left text-muted">{{ product.gender }}</p>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
@@ -104,7 +106,6 @@
                     {% endfor %}
                 </div>
             </div>
-        </div>
     </div>
     <div class="btt-button shadow-sm rounded-0 border border-black">
         <a class="btt-link d-flex h-100 text-decoration-none">
@@ -119,8 +120,6 @@
         $('.btt-link').click(function(e) {
             window.scrollTo(0,0);
         })
-    </script>
-    <script type="text/javascript">
         $('#sort-selector').change(function() {
             var selector = $(this);
             var currentUrl = new URL(window.location);

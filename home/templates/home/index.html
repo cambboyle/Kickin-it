@@ -53,9 +53,12 @@
                         {% endif %}
                         <div class="card-body pb-0">
                             <p class="mb-0">
-                                {{ product.name }}
+                                {{ product.name }} 
+                                {% if product.is_new %}
+                                    | <span class="border-1 text-danger font-weight-bold text-uppercase">New In</span>
+                                {% endif %}
                             </p>
-                            <p class="mb-0 text-left">{{ product.gender }}</p>
+                            <p class="mb-0 text-left text-muted">{{ product.gender }}</p>
                         </div>
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
@@ -92,7 +95,7 @@
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
                         <div class="card-content d-flex flex-column align-items-stretch p-5 pb-3 text-white text-shadow-1">
                             <h3 class="mb-4 lh-1 fw-bold text-center">SHOP</h3>
-                            <a href="" class="text-decoration-none card-font text-light text-uppercase d-inline-flex align-items-center justify-content-end flex-grow-1">
+                            <a href="{% url 'products' %}" class="text-decoration-none card-font text-light text-uppercase d-inline-flex align-items-center justify-content-end flex-grow-1">
                                 Shop now
                                 <i class="fa fa-arrow-right ps-3"></i>
                             </a>
@@ -102,11 +105,7 @@
                 <div class="col">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
                         <div class="card-content d-flex flex-column align-items-stretch p-5 pb-3 text-shadow-1">
-                            <h3 class="mb-4 lh-1 fw-bold text-center">NEWS</h3>
-                            <a href="" class="text-decoration-none card-font text-light text-uppercase d-inline-flex align-items-center justify-content-end flex-grow-1">
-                                Shop now
-                                <i class="fa fa-arrow-right ps-3"></i>
-                            </a>
+                            <h3 class="mb-4 lh-1 fw-bold text-center text-uppercase">Pay securely with Stripe</h3>
                         </div>
                     </div>
                 </div>
@@ -114,7 +113,7 @@
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-0 shadow-lg">
                         <div class="card-content d-flex flex-column align-items-stretch p-5 pb-3 text-shadow-1">
                             <h3 class="mb-4 lh-1 fw-bold text-center">FAQ</h3>
-                            <a href="" class="text-decoration-none card-font text-light text-uppercase d-inline-flex align-items-center justify-content-end flex-grow-1">
+                            <a href="{% url 'faq_list' %}" class="text-decoration-none card-font text-light text-uppercase d-inline-flex align-items-center justify-content-end flex-grow-1">
                                 CLICK HERE
                                 <i class="fa fa-arrow-right ps-3"></i>
                             </a>
@@ -187,7 +186,7 @@
                         {% csrf_token %}
                         <div class="input-group text-center ">
                             <input class="form-control rounded-0" name="email" type="email" placeholder="Enter your email here!" required/>
-                            <button id="Email-Button" class="btn btn-sm fs-6 me-2 rounded-0" type="submit">GET
+                            <button id="Email-Button" class="btn btn-sm fs-6 me-2 rounded-0 global-buttons" type="submit">GET
                                 ACCESS</button>
                         </div>
                     </form>
