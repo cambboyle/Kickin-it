@@ -33,7 +33,7 @@
 <div class="container-fluid">
     <div class="col-sm-10 offset-sm-1 pt-5 home-title" id="top-sellers">
         <h3 class="text-black text-uppercase fw-bold">Featured</h3>
-        <hr class="my-1 text-black" />
+        <hr class="my-1 text-black">
     </div>
     <div class="row">
         <div class="product-container col-10 offset-1">
@@ -130,7 +130,7 @@
 <div class="container-fluid">
     <div class="col-sm-10 offset-sm-1 pt-5">
         <h3 class="text-black text-uppercase fw-bold">Top Brands</h3>
-        <hr class="my-1 text-black" />
+        <hr class="my-1 text-black">
     </div>
     
     <div class="col-sm-12">
@@ -171,11 +171,11 @@
 <!-- Newsletter -->
 <div class="col-sm-10 offset-sm-1 mb-4 text-black ">
     <div class="container-fluid">
-        <hr class="my-1 text-black"/>
+        <hr class="my-1 text-black">
         <div class="row gy-4 gy-md-0">
             <div class="col-md-6 text-center">
                 <div class="text-center p-xl-5 m-xl-5 pt-5">
-                    <img class="img h-100 shadow-1" alt="" src="{{ MEDIA_URL }}newsletter-img.jpg" width="300" height="300" />
+                    <img class="img h-100 shadow-1" alt="" src="{{ MEDIA_URL }}newsletter-img.jpg" width="300" height="300">
                 </div>
             </div>
             <div class="col-md-6 d-md-flex align-items-md-center justify-content-md-between d-flex justify-content-center">
@@ -185,7 +185,7 @@
                     <form method="POST" action="{% url 'newsletter_subscribe' %}">
                         {% csrf_token %}
                         <div class="input-group text-center ">
-                            <input class="form-control rounded-0" name="email" type="email" placeholder="Enter your email here!" required/>
+                            <input class="form-control rounded-0" name="email" type="email" placeholder="Enter your email here!" required>
                             <button id="Email-Button" class="btn btn-sm fs-6 me-2 rounded-0 global-buttons" type="submit">GET
                                 ACCESS</button>
                         </div>
@@ -194,4 +194,5 @@
             </div>
         </div>
     </div>
+</div>
 {% endblock %}

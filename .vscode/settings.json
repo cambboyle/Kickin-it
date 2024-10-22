@@ -15,4 +15,5 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Catppuccin Macchiato",
    "terminal.integrated.gpuAcceleration": "canvas",
+   "pylint.enabled": true,
 }

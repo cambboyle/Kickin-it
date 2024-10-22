@@ -9,7 +9,6 @@ from .models import Product, Category
 
 from .forms import ProductForm
 
-# Create your views here.
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
@@ -18,7 +17,7 @@ def all_products(request):
     query = None
     categories = None
     sort = None
-    direction= None
+    direction = None
     current_gender = None
 
     # Product filtering
@@ -56,9 +55,19 @@ def all_products(request):
 
         # Filter by other brands
         if 'other_brands' in request.GET:
-            known_brands = ['Nike', 'Adidas', 'New Balance', 'Vans', 'Puma', 'Asics', 'Converse', 'Reebok', 'Hoka One One', 'On Running']
+            known_brands = [
+                'Nike',
+                'Adidas',
+                'New Balance',
+                'Vans',
+                'Puma',
+                'Asics',
+                'Converse',
+                'Reebok',
+                'Hoka One One',
+                'On Running']
             products = products.exclude(brand__in=known_brands)
-            
+
         # Filter by sale items
         if 'is_sale' in request.GET:
             is_sale = request.GET['is_sale'].lower() == 'true'
@@ -73,15 +82,18 @@ def all_products(request):
         if 'gender' in request.GET:
             gender = request.GET['gender']
             current_gender = gender
-            products = products.filter(Q(gender__iexact=gender) | Q(gender__iexact='unisex'))
+            products = products.filter(
+                Q(gender__iexact=gender) | Q(gender__iexact='unisex'))
 
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(
+                    request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(
+                name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -131,7 +143,7 @@ def add_product(request):
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
-            product =form.save()
+            product = form.save()
             messages.success(request, 'Product added!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:

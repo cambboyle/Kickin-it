@@ -7,7 +7,7 @@ class Category(models.Model):
 
     class Meta:
         verbose_name_plural = 'Categories'
-        
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -17,8 +17,10 @@ class Category(models.Model):
     def get_friendly_name(self):
         return self.friendly_name
 
+
 class Product(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ForeignKey(
+        'Category', null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
@@ -36,10 +38,13 @@ class Product(models.Model):
 
     def get_sale_price(self):
         if self.is_sale and hasattr(settings, 'UNIVERSAL_DISCOUNT_PERCENTAGE'):
-            universal_discount = Decimal(settings.UNIVERSAL_DISCOUNT_PERCENTAGE)
-            discount_multiplier = Decimal('1.0') - universal_discount / Decimal('100.0')
+            universal_discount = Decimal(
+                settings.UNIVERSAL_DISCOUNT_PERCENTAGE)
+            discount_multiplier = (
+                Decimal('1.0') - universal_discount / Decimal('100.0'))
             discounted_price = self.price * discount_multiplier
-            return discounted_price.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
+            return discounted_price.quantize(
+                Decimal('0.01'), rounding=ROUND_HALF_UP)
         return self.price
 
     def __str__(self):

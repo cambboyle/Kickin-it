@@ -6,14 +6,14 @@
 
 ## Introduction
 
-Kickin' It is a full-stack e-commerce web application. The site allows user to browse and purchase high end sneakers online.
+Kickin' It is a full-stack e-commerce web application. The site allows users to browse and purchase high end sneakers online.
 Users can create an account, add items to their bag, add items to their wishlist and checkout.
 Administrators can add, edit, and delete sneakers to/from the site.
 
 The site has been developed as a part of an educational project, 
 my MS4 project for the web application development course @ Code Institute.
 
-This project relies on Stripe for payment processing, however is only set up for development purposes.
+This project relies on Stripe for payment processing, however it is only set up for development purposes.
 
 If you wish to test payments, please use the test details:
 
@@ -29,7 +29,7 @@ If you have the relevant log-in details
 
 ## Overview
 
-Kickin' It is a full-stack e-commerce web application: 
+Kickin' It is a full-stack e-commerce web application:
 
 Users can:
 
@@ -119,74 +119,77 @@ I would suggest adding a ‘quick buy’ button to each product to make the over
 | Feature | Description | Image |
 |:---|:---|:---|
 | Favicon | A favicon to display in the web browser | ![Favicon](documentation/favicon.png) |
-| Site Logo | Main site title/logo | |
-| Navigation Bar Top | Houses the Search, Account, Wishlist and Bag | |
-| Navigation Bar Bottom | Navbar for product selection | |
-| Search Dropdown | Search through the products on the site | |
-| Profile Dropdown | Drop down menu for account, authentication and product management(admin) | |
-| Products Dropdown (Example: Brands)| Dropdown for further product selection/filtering | |
-| Mobile Nav Bar | Navbar for mobile devices | |
-| Hero | Main hero image featuring shop now call to action button | |
-| Featured Products | Showcases the recent featured products | |
-| Info Cards | States some information and buttons for the website | |
-| Top Brands | Shows top brands on the site | |
-| Newsletter | An input form to be subscribed to the newsletter | |
-| Footer | Footer which is visible on all pages, contains a small navbar for main site pages | |
+| Site Logo | Main site title/logo | ![Site Logo](documentation/site_logo.png) |
+| Navigation Bar Top | Houses the Search, Account, Wishlist and Bag buttons | ![Navbar](documentation/navbar_top.png) |
+| Navigation Bar Bottom | Navbar for product selection | ![Navbar](documentation/navbar_bottom.png) |
+| Search Dropdown | Search through the products on the site | ![Search Dropdown](documentation/search_dropdown.png) |
+| Profile Dropdown | Drop down menu for account, authentication and product management (admin) | ![Profile Dropdown](documentation/profile_dropdown.png) |
+| Products Dropdown (Example: Brands)| Dropdown for further product selection/filtering | ![Products Dropdown](documentation/product_dropdown.png) |
+| Mobile Nav Bar Top | Navbar for mobile devices | ![Mobile Nav Bar](documentation/mobile_navbar_top.png)|
+| Mobile Nav Bar Bottom | Navbar for mobile devices | ![Mobile Nav Bar](documentation/mobile_navbar_bottom.png)|
+| Hero | Main hero image featuring shop now call to action button | ![Hero](documentation/hero.jpg)|
+| Featured Products | Showcases the recent featured products, a randomly generate set of 8 of the featured products on each page refresh | ![Featured Products](documentation/featured_products.png)|
+| Info Cards | States some information and buttons for the website | ![Info Cards](documentation/info_cards.png)|
+| Top Brands | Shows top brands on the site | ![Top Brands](documentation/top_brands.png)|
+| Newsletter | An input form to be subscribed to the newsletter | ![Newsletter](documentation/newsletter.png)|
+| Footer | Footer which is visible on all pages, contains a small navbar for main site pages | ![Footer](documentation/footer.png)|
 
 #### Products Pages
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Products Page | Displays all products or filtered search of products | |
-| Product Detail Page | Shows a single product | |
-| Product Information | Displays product information | |
-| Size Selection | Size selection dropdown | |
-| Quanitity Selection | Quantity selection with + and - buttons | |
-| Add to Bag | Button to add the current product to the bag | |
-| Add to Wish List | Button to add the product to the wishlist | |
+| Products Page | Displays all products or filtered search of products | ![Products Page](documentation/products_page.png)|
+| Product Detail Page | Shows a single product | ![Product Detail Page](documentation/product_detail_page.png)|
+| Product Information | Displays product information | ![Product Information](documentation/product_information.png)|
+| Size Selection | Size selection dropdown | ![Size Selection](documentation/size_selection.png)|
+| Quanitity Selection | Quantity selection with + and - buttons | ![Quantity Selection](documentation/quantity_selection.png)|
+| Add to Bag | Button to add the current product to the bag | ![Add to Bag](documentation/add_to_bag.png)|
+| Add to Wish List | Button to add the product to the wishlist | ![Add to Wish List](documentation/add_to_wishlist.png)|
+| Back to Top | Button to return to the top of the page | ![Back to Top](documentation/back_to_top.png)|
 
 #### Profile
 
 | Feature | Description | Image |
 | :---|:---|:---|
-| Profile Page | The user's profile | |
-| Default Information | The users default delivery information, which can be updated here or when an order is placed | |
-| Order History | The user's order history, where they can view their past orders, including delivery details, price, etc. | |
+| Profile Page | The users profile | ![Profile Page](documentation/profile_page.png)|
+| Default Information | The users default delivery information, which can be updated here or when an order is placed | ![Default Information](documentation/default_info.png)|
+| Order History | The users order history, where they can view their past orders, including delivery details, price, etc. | ![Order History](documentation/order_history.png)|
 
 #### Wishlist
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Wishlist Page | The user's wishlist | |
-| Product | A single product inside the wishlist | |
+| Wishlist Page | The users wishlist | ![Profile Page](documentation/wishlist_page.png)|
+| Product | A single product inside the wishlist | ![Product](documentation/product.png)|
 
 #### Shopping Bag
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Bag Page | The user's shopping bag | |
-| Product | A single product inside the bag | |
-| Summary & Buttons | Two buttons to checkout or continue shopping with a summary of the order costs | |
+| Bag Page | The users shopping bag | ![Bag Page](documentation/bag_page.png)|
+| Product | A single product inside the bag | ![Product](documentation/product.png)|
+| Summary & Buttons | Two buttons to checkout or continue shopping with a summary of the order costs | ![Summary & Buttons](documentation/summary_and_buttons.png)|
 
 #### Checkout
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Checkout Page | The user's secure checkout | |
-| Order Confirmation | A confirmation of the order, viewable from the user's profile | |
+| Checkout Page | The users secure checkout | ![Checkout Page](documentation/checkout_page.png)|
+| Order Confirmation | A confirmation of the order, viewable from the users profile | ![Order Confirmation](documentation/order_confirmation.png)|
 
 #### Product Management(Admin)
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Product Form | A form for creating/editing products | |
+| Product Form | A form for creating/editing products | ![Product Form](documentation/product_management.png)|
 
 #### Newsletter
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Newsletter Confirmation | Newsletter confirmation email | |
-| Newsletter Unsubscribe | Unsubscribe from the newsletter email | |
+| Newsletter Confirmation Email | Newsletter confirmation email | ![Newsletter Confirmation Email](documentation/newsletter_confirm_email.png) |
+| Newsletter Unsubscribe | Unsubscribe from the newsletter | ![Newsletter Unsubscribe](documentation/newsletter_unsub.png)|
+| Newsletter Unsubscribe Confirmation | Unsubscribe confirmation | ![Newsletter Unsubscribe Confirmation](documentation/newsletter_unsub_confirm.png) |
 
 </details>
 
@@ -349,7 +352,7 @@ For all testing, please refer to the [TESTING.md]() file.
     pip3 install -r requirements.txt
     ```
 
-4. Additionally, you will need to set some Environment Variables, you can do this by creating an env.py files at the root directory (Make sure to add this to .gitignore) OR you can set the environment variables in your gitpod environment in your user settings.
+4. Additionally, you will need to set some Environment Variables, you can do this by creating an env.py file at the root directory (Make sure to add this to .gitignore) OR you can set the environment variables in your gitpod environment in your user settings.
 
     ```python
     import os
@@ -394,15 +397,16 @@ For all testing, please refer to the [TESTING.md]() file.
 
 | Key | Value |
 | --- | --- |
-| `AWS_ACCESS_KEY_ID` | user's own value |
-| `AWS_SECRET_ACCESS_KEY` | user's own value |
-| `DATABASE_URL` | user's own value |
-| `EMAIL_HOST_PASS` | user's own value |
-| `EMAIL_HOST_USER` | user's own value |
-| `SECRET_KEY` | user's own value |
-| `STRIPE_PUBLIC_KEY` | user's own value |
-| `STRIPE_SECRET_KEY` | user's own value |
-| `STRIPE_WH_SECRET` | user's own value |
+| `AWS_ACCESS_KEY_ID` | users own value |
+| `AWS_SECRET_ACCESS_KEY` | users own value |
+| `DATABASE_URL` | users own value |
+| `EMAIL_HOST` | users own value |
+| `EMAIL_HOST_PASS` | users own value |
+| `EMAIL_HOST_USER` | users own value |
+| `SECRET_KEY` | users own value |
+| `STRIPE_PUBLIC_KEY` | users own value |
+| `STRIPE_SECRET_KEY` | users own value |
+| `STRIPE_WH_SECRET` | users own value |
 | `USE_AWS` | True |
 
 *Configure the DB*
@@ -470,18 +474,148 @@ Or:
    - Save your changes
 
 3. **Setup Permissions**
-   
+   - In the newly created S3 bucket, click on the "Permissions" tab.
+   - Scroll to Bucket Policy, click "Edit".
+   - Use the policy generator to create the policy.
+     1. Select S3 Bucket.
+     2. Use a "*" as the principal.
+     3. Set the action to GetObject.
+     4. Paste the bucket's ARN, which is at the top of the permissions tab. Add /* to the end to specify all objects.
+   - Generate and then copy the new policy, paste it into the Bucket Policy Editor and click save.
+
+4. **Configure the CORS (Cross-Origin Resource Sharing)**
+    - In the permission tab, click "CORS".
+    - Add the following CORS rules:
+
+        ```json
+        [
+        {
+            "AllowedHeaders": ["Authorization"],
+            "AllowedMethods": ["GET"],
+            "AllowedOrigins": ["*"],
+            "ExposeHeaders": []
+        }
+        ]
+        ```
+
+5. **Set up IAM**
+    - Go back to the dashboard and search for IAM.
+    - Create a new group in the User Groups section.
+    - Go to the Policies tab and create a new policy using the template "S3FullAccess".
+    - Customise this policy to this.
+
+        ```json
+        {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::your-bucket-name",
+                "arn:aws:s3:::your-bucket-name/*"
+            ]
+            }
+        ]
+        }
+        ```
+
+    - Add the new policy to the group.
+
+6. Create an IAM user and assign it the permissions.
+   - Users tab, create a new user (select Programmatic Access), and assign the group to the user.
+   - Finalise the setup and download the CSV file, this contains your access credentials, keep it safe!
+
+7. Configure Django for AWS
+   - In your settings.py file, add the following:
+
+        ```python
+        if 'USE_AWS' in os.environ:
+            AWS_STORAGE_BUCKET_NAME = 'your-bucket-name'
+            AWS_S3_REGION_NAME = 'your-region'
+            AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+            AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+            AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+            # Static and media files configuration
+            STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+            DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+            STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/static/'
+            MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/media/'
+        ```
+
+8. Custom_Storages
+    - In your root folder, create a `custom_storages.py` file.
+
+    ```python
+    from django.conf import settings
+    from storages.backends.s3boto3 import S3Boto3Storage
+
+    class StaticStorage(S3Boto3Storage):
+        location = 'static'
+
+    class MediaStorage(S3Boto3Storage):
+        location = 'media'
+    ```
+
+9. Configure the Heroku Config Vars that were set up earlier
+    - Remember to remove DISABLE_COLLECTSTATIC=1 from the vars
+    - Then add the credentials from AWS CSV file to the vars
+
+10. Push to Github
+    - You are now safe to commit and push to github, deploy the app from terminal if you have auto deploy disabled in Heroku.
+    - Now you can upload the media folder from your local environment to the AWS bucket. (Make sure that public access is enabled in the bucket settings)
 
 #### Stripe Setup
+
+I used Stripe to handle payments on the site.
+
+Create a Stripe account and get logged-in.
+    - From the dashboard, copy your Publishable key and your Secret Key. These are your STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY respectively.
+
+Just in case the user quits the page before the payment has been made, Stripe can include webhooks.
+    - From the Developers dropdown, select Webhooks.
+    - From the "Webhooks" tab, select "Create new endpoint".
+    - Enter your deployed site's URL followed by /checkout/wh/
+    - Set the webhook to listen to All Events to ensure you receive all necessary updates.
+    - Add the Webhook signing secret to Heroku (STRIPE_WH_SECRET) and your env.py.
+
+#### Setting up gmail and sending emails
+
+I used Gmail to send emails to customers.
+
+I created a new email to handle these.
+
+- In your email account settings, enable 2 factor authentication.
+- Create an App Password, you may need to search for it.
+
+Now we need to configure Heroku to handle emails.
+
+In config vars, add the following:
+
+- `EMAIL_HOST` = 'smtp.gmail.com'
+- `EMAIL_HOST_USER` = Your email address
+- `EMAIL_HOST_PASSWORD` = Your App Password
+
+Now inside your local environment, add these settings to your env.py file:
+
+```python
+import os
+os.environ.setdefault("EMAIL_HOST", "your-smtp-server")
+os.environ.setdefault("EMAIL_HOST_USER", "your-email@example.com")
+os.environ.setdefault("EMAIL_HOST_PASSWORD", "your-app-password")
+```
 
 ### References
 
 https://purepng.com/photo/1717/logos-nike-logo#google_vignette
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/vectors-tank" title="Vectors Tank">Vectors Tank</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/revolutionizzed-1" title="revolutionizzed_1">revolutionizzed_1</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/vectors-tank" title="Vectors Tank">Vectors Tank</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/revolutionizzed-1" title="revolutionizzed_1">revolutionizzed_1</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
-<a href="https://www.flaticon.com/free-icons/sneakers" title="sneakers icons">Sneakers icons created by Nhor Phai - Flaticon</a>
+Sneakers icons created by <a href="https://www.flaticon.com/free-icons/sneakers" title="sneakers icons">Nhor Phai - Flaticon</a>
 
 All Sneaker Images are from <a href="https://thesneakerdatabase.com/sneakers" title="sneakers">The Sneaker Database</a>
 
-#### Acknowledgements
+### Acknowledgements
