@@ -4,6 +4,55 @@
 ## Mockup
 ![AmIResponsive Mockup](documentation/kickin-it-amiresponsive.png)
 
+## Table of Contents
+- [KICKIN' IT](#kickin-it)
+  - [Mockup](#mockup)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Overview](#overview)
+  - [UX](#ux)
+    - [Target Audience](#target-audience)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Project Goals](#project-goals)
+      - [Site Owner](#site-owner)
+      - [External User](#external-user)
+    - [User Stories](#user-stories)
+    - [User Feedback](#user-feedback)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+      - [General](#general)
+      - [Products Pages](#products-pages)
+      - [Profile](#profile)
+      - [Wishlist](#wishlist)
+      - [Shopping Bag](#shopping-bag)
+      - [Checkout](#checkout)
+      - [Product Management(Admin)](#product-managementadmin)
+      - [Newsletter](#newsletter)
+    - [Future Features](#future-features)
+  - [Wireframes](#wireframes)
+    - [Landing Page](#landing-page)
+    - [Products Page](#products-page)
+    - [Product Detail Page](#product-detail-page)
+    - [Bag Page](#bag-page)
+    - [Profile Page](#profile-page)
+    - [Login/Register Page](#loginregister-page)
+    - [Checkout Page](#checkout-page)
+  - [Structure](#structure)
+    - [DB](#db)
+    - [Databse Schema](#databse-schema)
+    - [Technology and Languages Used](#technology-and-languages-used)
+    - [Testing](#testing)
+    - [Deployment](#deployment)
+      - [Local Deployment](#local-deployment)
+      - [Heroku Deployment](#heroku-deployment)
+      - [GMAIL Setup](#gmail-setup)
+      - [AWS Setup](#aws-setup)
+      - [Stripe Setup](#stripe-setup)
+      - [Setting up gmail and sending emails](#setting-up-gmail-and-sending-emails)
+    - [References](#references)
+    - [Acknowledgements](#acknowledgements)
+
 ## Introduction
 
 Kickin' It is a full-stack e-commerce web application. The site allows users to browse and purchase high end sneakers online.
@@ -327,7 +376,7 @@ Please refer to the [requirements.txt](https://github.com/cambboyle/Kickin-it-v1
 
 ### Testing
 
-For all testing, please refer to the [TESTING.md]() file.
+For all testing, please refer to the [TESTING.md](https://github.com/cambboyle/Kickin-it-v1/blob/main/TESTING.md) file.
 
 ### Deployment
 
@@ -608,14 +657,30 @@ os.environ.setdefault("EMAIL_HOST_PASSWORD", "your-app-password")
 
 ### References
 
-https://purepng.com/photo/1717/logos-nike-logo#google_vignette
+[Boutique Ado walkthrough](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/master) for main structure and references in development
 
 Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+
 Icons made by <a href="https://www.flaticon.com/authors/vectors-tank" title="Vectors Tank">Vectors Tank</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+
 Icons made by <a href="https://www.flaticon.com/authors/revolutionizzed-1" title="revolutionizzed_1">revolutionizzed_1</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
 Sneakers icons created by <a href="https://www.flaticon.com/free-icons/sneakers" title="sneakers icons">Nhor Phai - Flaticon</a>
 
+Hero Section Photo by <a href="https://unsplash.com/@abhay_siby_m?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Abhay siby Mathew</a> on <a href="https://unsplash.com/photos/a-person-wearing-white-and-black-shoes-Dbv3KlxYN78?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+Newsletter Section Photo by <a href="https://unsplash.com/@wallofxavier?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Xavier Teo</a> on <a href="https://unsplash.com/photos/pair-of-white-nike-high-top-shoes-SxAXphIPWeg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 All Sneaker Images are from <a href="https://thesneakerdatabase.com/sneakers" title="sneakers">The Sneaker Database</a>
 
+[Bootstrap 5.3 Footer Template](https://getbootstrap.com/docs/5.3/examples/footers/)
+
 ### Acknowledgements
+
+Mitko Bachvarov - My Mentor, thank you for your time and patience.
+
+Code Institute Tutor Support - Fast and helpful support and debugging.
+
+Oct-2023-pla (My CI Classmates) - For answering my questions that felt too silly for Tutor Support.
+
+Mica Ali - For being my tester and keeping me on track during the project.
