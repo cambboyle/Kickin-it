@@ -8,8 +8,7 @@ html, body {
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
-     /* height: calc(100vh - 164px); */
+    font-family: 'Outfit', sans-serif; 
     background-color: #ffffff ;
 }
 
