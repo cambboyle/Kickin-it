@@ -212,31 +212,31 @@ These wireframes are very early iterations of the site. Changes were made to bet
 
 ### Landing Page
 
-![Landing Page Wireframe](documentation/landing-page-wireframe.png)
+![Landing Page Wireframe](documentation/wireframes/LandingFigma.png)
 
 ### Products Page
 
-![Products Page Wireframe](documentation/products-page-wireframe.png)
+![Products Page Wireframe](documentation/wireframes/AllProductsFigma.png)
 
 ### Product Detail Page
 
-![Product Detail Page Wireframe](documentation/product-detail-page-wireframe.png)
+![Product Detail Page Wireframe](documentation/wireframes/ProductDetailsFigma.png)
 
 ### Bag Page
 
-![Bag Wireframe](documentation/bag-wireframe.png)
+![Bag Wireframe](documentation/wireframes/BagFigma.png)
 
 ### Profile Page
 
-![Profile Page Wireframe](documentation/profile-page-wireframe.png)
+![Profile Page Wireframe](documentation/wireframes/ProfileFigma.png)
 
 ### Login/Register Page
 
-![Login/Register Wireframe](documentation/login-register-wireframe.png)
+![Login/Register Wireframe](documentation/wireframes/LoginFigma.png)
 
 ### Checkout Page
 
-![Checkout Wireframe](documentation/checkout-wireframe.png)
+![Checkout Wireframe](documentation/wireframes/CheckoutFigma.png)
 
 </details>
 
@@ -308,7 +308,7 @@ class Subscriber(models.Model):
 
 For easy visualisation of the database, I used Lucid Chart to build an Entity Relationship Diagram.
 
-![ERD](documentaion/ERD.png)
+![ERD](documentation/DBSchema.png)
 
 ### Technology and Languages Used
 
