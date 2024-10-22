@@ -118,75 +118,75 @@ I would suggest adding a ‘quick buy’ button to each product to make the over
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Favicon | | |
-| Site Logo | | |
-| Navigation Bar | | |
-| Search Dropdown | | |
-| Profile Dropdown | | |
-| Products Dropdown | | |
-| Mobile Nav Bar | | |
-| Hero | | |
-| Featured Products | | |
-| Info Cards | | |
-| Top Brands | | |
-| Newsletter | | |
-| Footer | | |
+| Favicon | A favicon to display in the web browser | ![Favicon](documentation/favicon.png) |
+| Site Logo | Main site title/logo | |
+| Navigation Bar Top | Houses the Search, Account, Wishlist and Bag | |
+| Navigation Bar Bottom | Navbar for product selection | |
+| Search Dropdown | Search through the products on the site | |
+| Profile Dropdown | Drop down menu for account, authentication and product management(admin) | |
+| Products Dropdown (Example: Brands)| Dropdown for further product selection/filtering | |
+| Mobile Nav Bar | Navbar for mobile devices | |
+| Hero | Main hero image featuring shop now call to action button | |
+| Featured Products | Showcases the recent featured products | |
+| Info Cards | States some information and buttons for the website | |
+| Top Brands | Shows top brands on the site | |
+| Newsletter | An input form to be subscribed to the newsletter | |
+| Footer | Footer which is visible on all pages, contains a small navbar for main site pages | |
 
 #### Products Pages
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Products Page | | |
-| Product Detail Page | | |
-| Product Information | | |
-| Size Selection | | |
-| Quanitity Selection | | |
-| Add to Bag | | |
-| Add to Wish List | | |
+| Products Page | Displays all products or filtered search of products | |
+| Product Detail Page | Shows a single product | |
+| Product Information | Displays product information | |
+| Size Selection | Size selection dropdown | |
+| Quanitity Selection | Quantity selection with + and - buttons | |
+| Add to Bag | Button to add the current product to the bag | |
+| Add to Wish List | Button to add the product to the wishlist | |
 
 #### Profile
 
 | Feature | Description | Image |
 | :---|:---|:---|
-| Profile Page | | |
-| Default Information | | |
-| Order History | | |
+| Profile Page | The user's profile | |
+| Default Information | The users default delivery information, which can be updated here or when an order is placed | |
+| Order History | The user's order history, where they can view their past orders, including delivery details, price, etc. | |
 
 #### Wishlist
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Wishlist Page | | |
-| Product | | |
+| Wishlist Page | The user's wishlist | |
+| Product | A single product inside the wishlist | |
 
 #### Shopping Bag
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Bag Page | | |
-| Product | | |
-| Summary & Buttons | | |
+| Bag Page | The user's shopping bag | |
+| Product | A single product inside the bag | |
+| Summary & Buttons | Two buttons to checkout or continue shopping with a summary of the order costs | |
 
 #### Checkout
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Checkout Page | | |
-| Order Confirmation | | |
+| Checkout Page | The user's secure checkout | |
+| Order Confirmation | A confirmation of the order, viewable from the user's profile | |
 
 #### Product Management(Admin)
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Product Form | | |
+| Product Form | A form for creating/editing products | |
 
 #### Newsletter
 
 | Feature | Description | Image |
 |:---|:---|:---|
-| Newsletter Email | | |
-| Newsletter Confirmation | | |
-| Newsletter Unsubscribe | | |
+| Newsletter Confirmation | Newsletter confirmation email | |
+| Newsletter Unsubscribe | Unsubscribe from the newsletter email | |
 
 </details>
 
@@ -196,6 +196,46 @@ I would suggest adding a ‘quick buy’ button to each product to make the over
 - User reviews and ratings: Add a feature that allows users to leave reviews and ratings for each product.
 - Quick Buy Button: Add a feature that allows users to quickly add a product to their bag without having to navigate to the product page.
 - Blog/Articles: Add weekly articles to the site created by admin, so that users can read the latest news and product drops from the sneaker world.
+
+## Wireframes
+
+For assistance with responsive design, I created wireframes for all breakpoints using [Figma](https://www.figma.com).
+
+These wireframes are very early iterations of the site. Changes were made to better the experience for users.
+
+<details>
+
+<summary>Click Me</summary>
+
+### Landing Page
+
+![Landing Page Wireframe](documentation/landing-page-wireframe.png)
+
+### Products Page
+
+![Products Page Wireframe](documentation/products-page-wireframe.png)
+
+### Product Detail Page
+
+![Product Detail Page Wireframe](documentation/product-detail-page-wireframe.png)
+
+### Bag Page
+
+![Bag Wireframe](documentation/bag-wireframe.png)
+
+### Profile Page
+
+![Profile Page Wireframe](documentation/profile-page-wireframe.png)
+
+### Login/Register Page
+
+![Login/Register Wireframe](documentation/login-register-wireframe.png)
+
+### Checkout Page
+
+![Checkout Wireframe](documentation/checkout-wireframe.png)
+
+</details>
 
 ## Structure
 
