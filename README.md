@@ -506,8 +506,6 @@ Or:
 - Set the remote for Heroku: `heroku git:remote -a <your_app_name>`
 - After performing the standard Git `add`, `commit`, and `push` to GitHub, you can now type: `git push heroku main`
 
-#### GMAIL Setup
-
 #### AWS Setup
 
 1. **Create an AWS S3 bucket**
@@ -629,7 +627,7 @@ Just in case the user quits the page before the payment has been made, Stripe ca
     - Set the webhook to listen to All Events to ensure you receive all necessary updates.
     - Add the Webhook signing secret to Heroku (STRIPE_WH_SECRET) and your env.py.
 
-#### Setting up gmail and sending emails
+#### GMAIL Setup
 
 I used Gmail to send emails to customers.
 
@@ -646,7 +644,7 @@ In config vars, add the following:
 - `EMAIL_HOST_USER` = Your email address
 - `EMAIL_HOST_PASSWORD` = Your App Password
 
-Now inside your local environment, add these settings to your env.py file:
+Now inside your local environment, add these settings to your env.py file or your environment variable settings in Gitpod:
 
 ```python
 import os
